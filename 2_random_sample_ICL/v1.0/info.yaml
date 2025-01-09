@@ -1,0 +1,55 @@
+case1:
+  system_instruction: 
+  prompt: "prompt1"
+  model:
+    top_k: 1
+    temperature: 0.9
+    max_new_tokens: 4
+    repetition_penalty: 1.5
+
+case2:
+  system_instruction: 
+  prompt: "prompt1"
+  model:
+    top_k: 1
+    temperature: 0.7
+    max_new_tokens: 10
+    repetition_penalty: 1.5
+
+case3:
+  system_instruction: 
+  prompt: "prompt1"
+  model:
+    top_k: 1
+    temperature: 0.7
+    max_new_tokens: 5
+    repetition_penalty: 1.5
+
+case4:
+  system_instruction: 
+  prompt: "prompt3"
+  few_shot: 4
+  model:
+    top_k: 1
+    temperature: 0.9
+    max_new_tokens: 500
+    repetition_penalty: 1.5
+
+case5:
+  system_instruction: 
+  prompt: "prompt4"
+  model:
+    top_k: 1
+    temperature: 0.9
+    max_new_tokens: 1
+    repetition_penalty: 1.5
+
+case6:
+  system_instruction: 
+  prompt: "prompt5"
+  few_shot: 2
+  model:
+    top_k: 1
+    temperature: 0.9
+    max_new_tokens: 1
+    repetition_penalty: 1.5

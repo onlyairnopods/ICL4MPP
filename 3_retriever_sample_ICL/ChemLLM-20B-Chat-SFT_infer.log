@@ -1,0 +1,2227 @@
+2024-08-08 19:49:02,590 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC[NH2+][C@H]1CN(CCCOC)S(=O)(=O)c2sc(S(N)(=O)=O)cc21
+Label: No
+Input SMILES: CCOc1ccc2ccccc2c1C(=O)N[C@@H]1C(=O)N2[C@@H]1SC(C)(C)[C@@H]2C(=O)[O-]
+Label: No
+Input SMILES: COc1cccc(OC)c1C(=O)N[C@@H]1C(=O)N2[C@@H]1SC(C)(C)[C@@H]2C(=O)[O-]
+Label: No
+Input SMILES: Cc1c2oc3c(C)ccc(C(=O)NC4C(=O)NC(C(C)C)C(=O)N5CCCC5C(=O)N(C)CC(=O)N(C)C(C(C)C)C(=O)OC4C)c3nc-2c(C(=O)NC2C(=O)NC(C(C)C)C(=O)N3CCCC3C(=O)N(C)CC(=O)N(C)C(C(C)C)C(=O)OC2C)c(N)c1=O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: C[NH+]1C[C@H](C(=O)N[C@]2(C)O[C@@]3(O)[C@@H]4CCCN4C(=O)[C@H](Cc4ccccc4)N3C2=O)C[C@@H]2c3cccc4[nH]cc(c34)C[C@H]21
+Answer: 
+Assistant:
+2024-08-08 19:49:22,953 - INFO - [0.2937440872192383, 0.7046554088592529, ' No', 'No', 'No']
+2024-08-08 19:49:22,954 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(Sc3nc(-c4cc[n+](C)cc4)cs3)CS[C@H]12)c1nsc(NP(=O)([O-])[O-])n1
+Label: No
+Input SMILES: CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(COC(C)=O)CS[C@H]12)c1csc(N)n1
+Label: No
+Input SMILES: CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=CCS[C@H]12)c1csc(N)n1
+Label: No
+Input SMILES: CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)OC(C)OC(C)=O)=C(COC(N)=O)CS[C@H]12)c1ccco1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: C[C@]1(Cn2ccnn2)[C@H](C(=O)[O-])N2C(=O)C[C@H]2S1(=O)=O
+Answer: 
+Assistant:
+2024-08-08 19:49:39,085 - INFO - [0.2684999108314514, 0.7298583388328552, ' No', 'No', 'No']
+2024-08-08 19:49:39,086 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1
+Label: No
+Input SMILES: CC(=O)c1ccc2c(c1)N(CCC[NH+]1CCC(CCO)CC1)c1ccccc1S2
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: C[NH+]1CCC[C@@H]1CCO[C@](C)(c1ccccc1)c1ccc(Cl)cc1
+Answer: 
+Assistant:
+2024-08-08 19:49:51,189 - INFO - [0.2223113626241684, 0.775942862033844, ' No', 'No', 'No']
+2024-08-08 19:49:51,190 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: O=C([O-])c1cn(C2CC2)c2cc(N3CC[NH2+]CC3)c(F)cc2c1=O
+Label: No
+Input SMILES: Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CC[NH+](CCO)CC2)n1
+Label: No
+Input SMILES: Nc1nc(=S)c2[nH]cnc2[nH]1
+Label: Yes
+Input SMILES: Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1
+Label: Yes
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Nc1nc(NC2CC2)c2ncn([C@H]3C=C[C@@H](CO)C3)c2n1
+Answer: 
+Assistant:
+2024-08-08 19:50:03,517 - INFO - [0.3619716167449951, 0.6352800130844116, ' No', 'No', 'No']
+2024-08-08 19:50:03,518 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Nc1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)n1
+Label: No
+Input SMILES: Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@@H]2O)c(=O)n1
+Label: Yes
+Input SMILES: CO[C@@H]1[C@@H](OC(N)=O)[C@@H](O)[C@H](Oc2ccc3c([O-])c(NC(=O)c4ccc(O)c(CC=C(C)C)c4)c(=O)oc3c2C)OC1(C)C
+Label: No
+Input SMILES: C[C@H]1O[C@@H](O[C@H]2[C@@H](O)C[C@H](O[C@H]3[C@@H](O)C[C@H](O[C@H]4CC[C@@]5(C)[C@H](CC[C@@H]6[C@@H]5C[C@@H](O)[C@]5(C)[C@@H](C7=CC(=O)OC7)CC[C@]65O)C4)O[C@@H]3C)O[C@@H]2C)C[C@H](O)[C@@H]1O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: OC[C@H]1O[C@@H](n2cnc3c2NC=[NH+]C[C@H]3O)C[C@@H]1O
+Answer: 
+Assistant:
+2024-08-08 19:50:21,724 - INFO - [0.43685588240623474, 0.5609340667724609, ' No', 'No', 'No']
+2024-08-08 19:50:21,725 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1cc(O)c(C(=O)N[C@@H](C(=O)N[C@@H]2C(=O)N3C(C(=O)[O-])=C(CSc4nnnn4C)CS[C@H]23)c2ccc(O)cc2)cn1
+Label: No
+Input SMILES: CCNC(NCC)=[NH+]CCCC[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CCCC[NH+]=C(NCC)NCC)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CO)NC(=O)[C@@H](Cc1cccnc1)NC(=O)[C@@H](Cc1ccc(Cl)cc1)NC(=O)[C@@H](Cc1ccc2ccccc2c1)NC(C)=O)C(=O)N1CCC[C@H]1C(=O)N[C@H](C)C(N)=O
+Label: No
+Input SMILES: Cc1c(N)nc([C@H](CC(N)=O)[NH2+]C[C@H](N)C(N)=O)nc1C(=O)N[C@H](C(=O)N[C@H](C)[C@@H](O)[C@H](C)C(=O)N[C@H](C(=O)NCCc1nc(-c2nc(C(=O)NCCC[S+](C)C)cs2)cs1)[C@@H](C)O)[C@@H](O[C@@H]1O[C@@H](CO)[C@@H](O)[C@H](O)[C@@H]1O[C@H]1O[C@H](CO)[C@@H](O)[C@H](OC(N)=O)[C@@H]1O)c1c[nH]cn1
+Label: No
+Input SMILES: CC(=O)N(O)CCCCCNC(=O)CCC(=O)N(O)CCCCCNC(=O)CCC(=O)N(O)CCCCC[NH3+]
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NC(=O)c1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)n1
+Answer: 
+Assistant:
+2024-08-08 19:50:45,894 - INFO - [0.23313237726688385, 0.7644116878509521, ' No', 'No', 'No']
+2024-08-08 19:50:45,895 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C=CC[NH+]1CC[C@]23CCCC[C@H]2[C@H]1Cc1ccc(O)cc13
+Label: No
+Input SMILES: C[NH+]1CC[C@]23CCCC[C@H]2[C@H]1Cc1ccc(O)cc13
+Label: No
+Input SMILES: C[N+]1(CC2CC2)CC[C@]23c4c5ccc(O)c4O[C@H]2C(=O)CC[C@@]3(O)[C@H]1C5
+Label: No
+Input SMILES: COc1ccc2c(c1)[C@]13CCCC[C@@H]1[C@H](C2)[NH+](C)CC3
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: c1cnc2cc3c(cc2n1)[C@@H]1C[NH2+]C[C@H]3C1
+Answer: 
+Assistant:
+2024-08-08 19:50:58,469 - INFO - [0.24468466639518738, 0.7536818385124207, ' No', 'No', 'No']
+2024-08-08 19:50:58,470 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: CN1CC[NH+](CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: O=C([O-])COCC[NH+]1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1CC2(CCCC2)CC(=O)N1CCCC[NH+]1CCN(c2ncccn2)CC1
+Answer: 
+Assistant:
+2024-08-08 19:51:10,693 - INFO - [0.23331154882907867, 0.7649991512298584, ' No', 'No', 'No']
+2024-08-08 19:51:10,694 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Input SMILES: Cc1[nH]cnc1CN1CCc2c(c3ccccc3n2C)C1=O
+Label: No
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: S=P(N1CC1)(N1CC1)N1CC1
+Answer: 
+Assistant:
+2024-08-08 19:51:22,675 - INFO - [0.5898349285125732, 0.4053872227668762, ' Yes', 'Yes', 'No']
+2024-08-08 19:51:22,676 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CNC1=[NH+]c2ccc(Cl)cc2C(c2ccccc2)=[N+]([O-])C1
+Label: No
+Input SMILES: O=C1CN=C(c2ccccc2)c2cc(Cl)ccc2N1CC(F)(F)F
+Label: No
+Input SMILES: CCOC(=O)Nc1ccc2c(c1)N(C(=O)CC[NH+]1CCOCC1)c1ccccc1S2
+Label: No
+Input SMILES: Cn1nc(C(=O)NC2CC3CCCC(C2)[NH+]3C)c2ccccc21
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(Nc1cnccc1Cl)N1CCN(Cc2ccc3c(c2)OC(F)(F)O3)CC1
+Answer: 
+Assistant:
+2024-08-08 19:51:34,840 - INFO - [0.28083857893943787, 0.7171464562416077, ' No', 'No', 'Yes']
+2024-08-08 19:51:34,841 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CNC1=[NH+]c2ccc(Cl)cc2C(c2ccccc2)=[N+]([O-])C1
+Label: No
+Input SMILES: Oc1c(Cl)cc(Cl)c(Cl)c1Cc1c(O)c(Cl)cc(Cl)c1Cl
+Label: No
+Input SMILES: O=C1CN=C(c2ccccc2)c2cc(Cl)ccc2N1CC(F)(F)F
+Label: No
+Input SMILES: COc1ccnc(CS(=O)c2nc3ccc(OC(F)F)cc3[nH]2)c1OC
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(CCBr)N1CCN(C(=O)CCBr)CC1
+Answer: 
+Assistant:
+2024-08-08 19:51:47,130 - INFO - [0.16422829031944275, 0.8340201377868652, ' No', 'No', 'No']
+2024-08-08 19:51:47,131 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC[NH+](CC)CCOC(=O)c1ccc(N)cc1Cl
+Label: No
+Input SMILES: Cn1nnc2c(C(N)=O)ncn2c1=O
+Label: Yes
+Input SMILES: CC(=O)O[C@H]1Cc2ccccc2N(C(N)=O)c2ccccc21
+Label: Yes
+Input SMILES: CCCCCNC(=[NH2+])N/N=C/c1c[nH]c2ccc(OC)cc12
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Nc1ccc(S(=O)(=O)[N-]c2ccccn2)cc1
+Answer: 
+Assistant:
+2024-08-08 19:51:57,515 - INFO - [0.5299122333526611, 0.46764591336250305, ' Yes', 'Yes', 'No']
+2024-08-08 19:51:57,516 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCC1=C(C)CN(C(=O)NCCc2ccc(S(=O)(=O)[N-]C(=O)NC3CCC(C)CC3)cc2)C1=O
+Label: No
+Input SMILES: C[NH+](C)[C@@H]1C([O-])=C(C(N)=O)C(=O)[C@@]2(O)C([O-])=C3C(=O)c4c([O-])cccc4[C@@](C)(O)[C@H]3[C@H](O)[C@@H]12
+Label: No
+Input SMILES: C[NH+](C)[C@@H]1C([O-])=C(C(N)=O)C(=O)[C@@]2(O)C([O-])=C3C(=O)c4c([O-])cccc4[C@@](C)(O)[C@H]3C[C@@H]12
+Label: No
+Input SMILES: C[NH+](C)[C@@H]1C([O-])=C(C(N)=O)C(=O)[C@@]2(O)C([O-])=C3C(=O)c4c([O-])ccc(Cl)c4[C@@H](O)[C@H]3C[C@@H]12
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C([O-])c1cc(/N=N/c2ccc(S(=O)(=O)[N-]c3ccccn3)cc2)ccc1O
+Answer: 
+Assistant:
+2024-08-08 19:52:13,710 - INFO - [0.49854251742362976, 0.49854251742362976, ' No', 'No', 'No']
+2024-08-08 19:52:13,711 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCCC[NH+](CCCC)CC(O)c1cc(Cl)cc2c1-c1ccc(Cl)cc1/C2=C/c1ccc(Cl)cc1
+Label: No
+Input SMILES: [NH3+][C@@H](Cc1cc(I)c(Oc2ccc(O)c(I)c2)c(I)c1)C(=O)[O-]
+Label: No
+Input SMILES: CC(=O)O[C@H]1Cc2ccccc2N(C(N)=O)c2ccccc21
+Label: Yes
+Input SMILES: [NH3+][C@@H](Cc1cc(I)c(Oc2cc(I)c([O-])c(I)c2)c(I)c1)C(=O)[O-]
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C([O-])CCC[NH+]1CCC(O[C@@H](c2ccc(Cl)cc2)c2ccccn2)CC1
+Answer: 
+Assistant:
+2024-08-08 19:52:26,050 - INFO - [0.391752153635025, 0.6067575812339783, ' No', 'No', 'No']
+2024-08-08 19:52:26,051 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: COc1cc(N)c(Cl)cc1C(=O)NC1CC[NH+](CCCOc2ccc(F)cc2)CC1OC
+Label: No
+Input SMILES: O=C1CN=C(c2ccccc2)c2cc(Cl)ccc2N1CC(F)(F)F
+Label: No
+Input SMILES: C[NH+]1C2CC(OC(=O)C(CO)c3ccccc3)CC1C1OC12
+Label: No
+Input SMILES: CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)[O-])cc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(c1ccc(F)c(F)c1Nc1ccc(I)cc1F)N1CC(O)([C@@H]2CCCCN2)C1
+Answer: 
+Assistant:
+2024-08-08 19:52:38,613 - INFO - [0.40655267238616943, 0.5915306210517883, ' No', 'No', 'Yes']
+2024-08-08 19:52:38,614 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Input SMILES: Cc1cccc(C[NH+]2CCN(C(c3ccccc3)c3ccc(Cl)cc3)CC2)c1
+Label: No
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=c1n(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)nc2ccccn12
+Answer: 
+Assistant:
+2024-08-08 19:52:50,707 - INFO - [0.348224937915802, 0.6505697965621948, ' No', 'No', 'No']
+2024-08-08 19:52:50,708 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Input SMILES: Cc1[nH]cnc1CN1CCc2c(c3ccccc3n2C)C1=O
+Label: No
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(c1ccc2nonc2c1)N1CCCCC1
+Answer: 
+Assistant:
+2024-08-08 19:53:02,759 - INFO - [0.20147812366485596, 0.7968614101409912, ' No', 'No', 'Yes']
+2024-08-08 19:53:02,760 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCCNC(=O)[N-]S(=O)(=O)c1ccc(Cl)cc1
+Label: No
+Input SMILES: Nc1cc(-c2ccncc2)c[nH]c1=O
+Label: No
+Input SMILES: CCc1ccc(CCOc2ccc(CC3SC(=O)NC3=O)cc2)nc1
+Label: Yes
+Input SMILES: CC[NH+](CC)Cc1cc(Nc2ccnc3cc(Cl)ccc23)ccc1O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: [O-]n1ccccc1=S
+Answer: 
+Assistant:
+2024-08-08 19:53:13,039 - INFO - [0.4213646650314331, 0.5759372115135193, ' No', 'No', 'No']
+2024-08-08 19:53:13,039 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: CN1CC[NH+](CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: O=C([O-])COCC[NH+]1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NC(N)=[NH+]CCN1CCCCCCC1
+Answer: 
+Assistant:
+2024-08-08 19:53:25,357 - INFO - [0.14010921120643616, 0.8582729697227478, ' No', 'No', 'No']
+2024-08-08 19:53:25,358 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: CN1CC[NH+](CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: C[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NNc1nncc2ccccc12
+Answer: 
+Assistant:
+2024-08-08 19:53:35,650 - INFO - [0.2442511022090912, 0.752346396446228, ' No', 'No', 'No']
+2024-08-08 19:53:35,650 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Input SMILES: O=C1Nc2ccc(Cl)cc2C(c2ccccc2)=NC1O
+Label: No
+Input SMILES: Cc1[nH]cnc1CN1CCc2c(c3ccccc3n2C)C1=O
+Label: No
+Input SMILES: O=C1Nc2ccc(Cl)cc2C(c2ccccc2Cl)=NC1O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(C1CCCCC1)N1CC(=O)N2CCc3ccccc3C2C1
+Answer: 
+Assistant:
+2024-08-08 19:53:47,648 - INFO - [0.08498482406139374, 0.9136729836463928, ' No', 'No', 'No']
+2024-08-08 19:53:47,648 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: O=C([O-])COCC[NH+]1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1
+Label: No
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: CC(=O)c1ccc2c(c1)N(CCC[NH+]1CCC(CCO)CC1)c1ccccc1S2
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: c1ccc2c(CC3=[NH+]CCN3)cccc2c1
+Answer: 
+Assistant:
+2024-08-08 19:53:59,787 - INFO - [0.1820751577615738, 0.81600421667099, ' No', 'No', 'No']
+2024-08-08 19:53:59,787 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: CN1CC[NH+](CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: c1ccc2c(c1)CCCC2C1=[NH+]CCN1
+Answer: 
+Assistant:
+2024-08-08 19:54:12,137 - INFO - [0.17292949557304382, 0.8250004649162292, ' No', 'No', 'No']
+2024-08-08 19:54:12,137 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Input SMILES: O=C1Nc2ccc(Cl)cc2C(c2ccccc2)=NC1O
+Label: No
+Input SMILES: Cc1[nH]cnc1CN1CCc2c(c3ccccc3n2C)C1=O
+Label: No
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)cc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NC(=O)N1c2ccccc2C=Cc2ccccc21
+Answer: 
+Assistant:
+2024-08-08 19:54:22,422 - INFO - [0.12567654252052307, 0.8723680377006531, ' No', 'No', 'No']
+2024-08-08 19:54:22,423 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: Clc1ccccc1C[NH+]1CCc2sccc2C1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NC1=[NH+]CC2c3ccccc3Cc3ccccc3N12
+Answer: 
+Assistant:
+2024-08-08 19:54:34,450 - INFO - [0.23317503929138184, 0.76455157995224, ' No', 'No', 'No']
+2024-08-08 19:54:34,451 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCCC(C)C1(CC)C(=O)NC(=O)NC1=O
+Label: No
+Input SMILES: CCCC(C)C1(CC)C(=O)NC(=S)NC1=O
+Label: No
+Input SMILES: CCC1(CC)C(=O)NC(=O)N(C)C1=O
+Label: No
+Input SMILES: Cc1cnc(C(=O)NCCc2ccc(S(=O)(=O)[N-]C(=O)NC3CCCCC3)cc2)cn1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NC(=O)N1c2ccccc2CC(=O)c2ccccc21
+Answer: 
+Assistant:
+2024-08-08 19:54:46,571 - INFO - [0.1190476194024086, 0.8796495199203491, ' No', 'No', 'No']
+2024-08-08 19:54:46,571 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: NC(=[NH2+])NCCC[C@@H](NC(=O)[C@@H]1CCCN1C(=O)[C@@H]1CSSCCC(=O)N[C@@H](Cc2ccc(O)cc2)C(=O)N[C@@H](Cc2ccccc2)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(N)=O)C(=O)N1)C(=O)NCC(N)=O
+Label: No
+Input SMILES: NC(=O)CCC1NC(=O)C(Cc2ccccc2)NC(=O)C(Cc2ccc(O)cc2)NC(=O)C([NH3+])CSSCC(C(=O)N2CCCC2C(=O)NC(CCC[NH+]=C(N)N)C(=O)NCC(N)=O)NC(=O)C(CC(N)=O)NC1=O
+Label: No
+Input SMILES: NC(=O)CCC1NC(=O)C(Cc2ccccc2)NC(=O)C(Cc2ccc(O)cc2)NC(=O)C([NH3+])CSSCC(C(=O)N2CCCC2C(=O)NC(CCCC[NH3+])C(=O)NCC(N)=O)NC(=O)C(CC(N)=O)NC1=O
+Label: No
+Input SMILES: CCNC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)[C@H](Cc1cnc[nH]1)NC(=O)[C@@H]1CCC(=O)N1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NC(N)=[NH+]CCCC(NC(=O)[C@H]([NH3+])CCC[NH+]=C(N)N)C(=O)N1CCCC1C(=O)N1C[C@H](O)CC1C(=O)NCC(=O)N[C@@H](Cc1cccs1)C(=O)N[C@@H](CO)C(=O)N1Cc2ccccc2CC1C(=O)N1C(C(=O)N[C@@H](CCC[NH+]=C(N)N)C(=O)[O-])C[C@@H]2CCCC[C@@H]21
+Answer: 
+Assistant:
+2024-08-08 19:55:13,181 - INFO - [0.49891000986099243, 0.49891000986099243, ' No', 'No', 'No']
+2024-08-08 19:55:13,182 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCCCCCC[NH+](CC)CCCC(O)c1ccc(NS(C)(=O)=O)cc1
+Label: No
+Input SMILES: Nc1cccc2c1CN(C1CCC(=O)NC1=O)C2=O
+Label: No
+Input SMILES: CCc1cccc2c3c([nH]c12)C(CC)(CC(=O)[O-])OCC3
+Label: No
+Input SMILES: CCCC[NH+]1CCCC[C@H]1C(=O)Nc1c(C)cccc1C
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C([O-])c1cc2ccccc2c(Cc2c(O)c(C(=O)[O-])cc3ccccc23)c1O
+Answer: 
+Assistant:
+2024-08-08 19:55:25,253 - INFO - [0.3202102780342102, 0.677885115146637, ' No', 'No', 'No']
+2024-08-08 19:55:25,253 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O
+Label: No
+Input SMILES: COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCC[NH+]1CCOCC1
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: Yes
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(CCS)N1CCc2c([nH]c3ccccc23)C1
+Answer: 
+Assistant:
+2024-08-08 19:55:37,511 - INFO - [0.28080376982688904, 0.7170575857162476, ' No', 'No', 'No']
+2024-08-08 19:55:37,512 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: No
+Input SMILES: O=C([O-])COCC[NH+]1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: OC1(c2ccc(Cl)cc2)c2ccccc2C2=[NH+]CCN21
+Answer: 
+Assistant:
+2024-08-08 19:55:49,986 - INFO - [0.3481002748012543, 0.6503369212150574, ' No', 'No', 'No']
+2024-08-08 19:55:49,986 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCCCOc1ccc(C(=O)CC[NH+]2CCCCC2)cc1
+Label: No
+Input SMILES: C[NH+](C)CCCN1c2ccccc2CCc2ccc(Cl)cc21
+Label: No
+Input SMILES: COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC
+Label: No
+Input SMILES: C[NH+](C)CCCN1c2ccccc2Sc2ccc(Cl)cc21
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1O[Bi](O)Oc2ccccc21
+Answer: 
+Assistant:
+2024-08-08 19:56:00,230 - INFO - [0.4361383616924286, 0.5600127577781677, ' No', 'No', 'No']
+2024-08-08 19:56:00,231 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1ccccc1N1C(=O)c2cc(S(N)(=O)=O)c(Cl)cc2NC1C
+Label: No
+Input SMILES: CCC1NC(=O)c2cc(S(N)(=O)=O)c(Cl)cc2N1
+Label: No
+Input SMILES: COC(=O)Nc1nc2cc(C(=O)c3ccccc3)ccc2[nH]1
+Label: No
+Input SMILES: Cc1ccc(S(=O)(=O)[N-]C(=O)N[NH+]2CCCCCC2)cc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NS(=O)(=O)c1cc(C2(O)NC(=O)c3ccccc32)ccc1Cl
+Answer: 
+Assistant:
+2024-08-08 19:56:12,349 - INFO - [0.4065670371055603, 0.5915515422821045, ' No', 'No', 'No']
+2024-08-08 19:56:12,350 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Input SMILES: Cc1cccc(C[NH+]2CCN(C(c3ccccc3)c3ccc(Cl)cc3)CC2)c1
+Label: No
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1Cc2cc(CC[NH+]3CCN(c4nsc5ccccc45)CC3)c(Cl)cc2N1
+Answer: 
+Assistant:
+2024-08-08 19:56:24,545 - INFO - [0.43705084919929504, 0.5611844062805176, ' No', 'No', 'No']
+2024-08-08 19:56:24,545 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C=C1/C(=C\C=C2/CCC[C@]3(C)[C@@H]([C@H](C)/C=C/[C@H](C)C(C)C)CC[C@@H]23)C[C@@H](O)C[C@@H]1O
+Label: No
+Input SMILES: C=C1/C(=C\C=C2/CCC[C@]3(C)[C@@H]([C@H](C)CCCC(C)(C)O)CC[C@@H]23)C[C@@H](O)C[C@@H]1O
+Label: Yes
+Input SMILES: C[C@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@@]3(F)[C@@H](O)C[C@@]21C
+Label: No
+Input SMILES: C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2C(=O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO
+Label: Yes
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1C[NH+]1CCN(c2nsc3ccccc23)CC1
+Answer: 
+Assistant:
+2024-08-08 19:56:40,987 - INFO - [0.5608598589897156, 0.436798095703125, ' Yes', 'Yes', 'No']
+2024-08-08 19:56:40,987 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCCNC(=O)[N-]S(=O)(=O)c1ccc(Cl)cc1
+Label: No
+Input SMILES: CC(=O)N(c1onc(C)c1C)S(=O)(=O)c1ccc(N)cc1
+Label: No
+Input SMILES: CC[NH+](CC)CCOC(=O)c1ccc(N)cc1Cl
+Label: No
+Input SMILES: Cc1cccn2c(=O)c(-c3nnn[n-]3)cnc12
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NS(=O)(=O)Cc1noc2ccccc12
+Answer: 
+Assistant:
+2024-08-08 19:56:51,207 - INFO - [0.2684878706932068, 0.7298256158828735, ' No', 'No', 'No']
+2024-08-08 19:56:51,207 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Input SMILES: O=C1Nc2ccc(Cl)cc2C(c2ccccc2)=NC1O
+Label: No
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Clc1ccc(Nc2nnc(Cc3ccncc3)c3ccccc23)cc1
+Answer: 
+Assistant:
+2024-08-08 19:57:03,280 - INFO - [0.25646188855171204, 0.7420970797538757, ' No', 'No', 'Yes']
+2024-08-08 19:57:03,281 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCSc1ccc2c(c1)N(CCCN1CC[NH+](C)CC1)c1ccccc1S2
+Label: No
+Input SMILES: CSc1ccc2c(c1)N(CCC1CCCC[NH+]1C)c1ccccc1S2
+Label: No
+Input SMILES: O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccccc21
+Label: No
+Input SMILES: CCN1CC(CC[NH+]2CCOCC2)C(c2ccccc2)(c2ccccc2)C1=O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(OC1CC2CC3C[C@H](C1)[NH+]2CC3=O)c1c[nH]c2ccccc12
+Answer: 
+Assistant:
+2024-08-08 19:57:15,623 - INFO - [0.36219778656959534, 0.6356769800186157, ' No', 'No', 'No']
+2024-08-08 19:57:15,624 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O
+Label: No
+Input SMILES: CN1CCC(CNc2ccc3ncc(-c4cccc(OC(F)(F)F)c4)n3n2)CC1
+Label: Yes
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: No
+Input SMILES: COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCC[NH+]1CCOCC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Nc1c2c([nH+]c3ccccc13)CCCC2
+Answer: 
+Assistant:
+2024-08-08 19:57:27,843 - INFO - [0.3067132234573364, 0.6911889314651489, ' No', 'No', 'No']
+2024-08-08 19:57:27,843 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: COc1ccc(CC(C)[NH2+]CC(O)c2ccc(O)c(NC=O)c2)cc1
+Label: No
+Input SMILES: CC(=O)CC(c1ccccc1)c1c([O-])c2ccccc2oc1=O
+Label: No
+Input SMILES: COCCCC/C(=N\OCC[NH3+])c1ccc(C(F)(F)F)cc1
+Label: No
+Input SMILES: Cc1cc(/C=C/c2ccc3cc(N(C)C)ccc3[n+]2C)c(C)n1-c1ccccc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=c1oc2ccccc2c([O-])c1Cc1c([O-])c2ccccc2oc1=O
+Answer: 
+Assistant:
+2024-08-08 19:57:40,003 - INFO - [0.1478634476661682, 0.8508954644203186, ' No', 'No', 'No']
+2024-08-08 19:57:40,004 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: O=C([O-])CN1CCN(C(CO)C(O)CO)CCN(CC(=O)[O-])CC[NH+](CC(=O)[O-])CC1
+Label: No
+Input SMILES: OCC[NH+]1C[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO
+Label: No
+Input SMILES: O=C([O-])CC(O)(CC(=O)[O-])C(=O)[O-]
+Label: No
+Input SMILES: Cc1ccc(/C(=C\C[NH+]2CCCC2)c2cccc(/C=C/C(=O)[O-])n2)cc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C([O-])C[C@H](O)C[C@H](O)/C=C/c1c(C2CC2)nc2ccccc2c1-c1ccc(F)cc1
+Answer: 
+Assistant:
+2024-08-08 19:57:52,370 - INFO - [0.26845067739486694, 0.7297245264053345, ' No', 'No', 'No']
+2024-08-08 19:57:52,371 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: C[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: CN1CC[NH+](CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: OCCOCC[NH+]1CCN(C2=[NH+]c3ccccc3Sc3ccccc32)CC1
+Answer: 
+Assistant:
+2024-08-08 19:58:04,644 - INFO - [0.3200404644012451, 0.6775256395339966, ' No', 'No', 'No']
+2024-08-08 19:58:04,645 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Input SMILES: Cc1[nH]cnc1CN1CCc2c(c3ccccc3n2C)C1=O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(CCC[NH+]1CC=C(n2c(=O)[nH]c3ccccc32)CC1)c1ccc(F)cc1
+Answer: 
+Assistant:
+2024-08-08 19:58:16,781 - INFO - [0.391559362411499, 0.6064589619636536, ' No', 'No', 'No']
+2024-08-08 19:58:16,782 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: Yes
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O
+Label: No
+Input SMILES: Cc1cccc(C[NH+]2CCN(C(c3ccccc3)c3ccc(Cl)cc3)CC2)c1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=c1[nH]c2ccccc2n1C1CC[NH+](CCCC(c2ccc(F)cc2)c2ccc(F)cc2)CC1
+Answer: 
+Assistant:
+2024-08-08 19:58:29,064 - INFO - [0.42156580090522766, 0.5762121677398682, ' No', 'No', 'No']
+2024-08-08 19:58:29,065 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CNC1=[NH+]c2ccc(Cl)cc2C(c2ccccc2)=[N+]([O-])C1
+Label: No
+Input SMILES: Cn1nc(C(=O)NC2CC3CCCC(C2)[NH+]3C)c2ccccc21
+Label: No
+Input SMILES: O=C1CN=C(c2ccccc2)c2cc(Cl)ccc2N1CC(F)(F)F
+Label: No
+Input SMILES: C[NH+]1C2CC(OC(=O)C(CO)c3ccccc3)CC1C1OC12
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NC(N)=[NH+]CC1COC2(CCCCC2)O1
+Answer: 
+Assistant:
+2024-08-08 19:58:41,169 - INFO - [0.17303933203220367, 0.8255244493484497, ' No', 'No', 'No']
+2024-08-08 19:58:41,169 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCCCCCC[NH+](CC)CCCC(O)c1ccc(NS(C)(=O)=O)cc1
+Label: No
+Input SMILES: C=CCC1(C(C)CCC)C(=O)NC(S)=[NH+]C1=O
+Label: No
+Input SMILES: C=CCC1(C(C)C#CCC)C(=O)NC(=O)N(C)C1=O
+Label: No
+Input SMILES: CCn1cc(C(=O)[O-])c(=O)c2ccc(C)nc21
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Nc1ccc(C(=O)Oc2ccccc2)c(O)c1
+Answer: 
+Assistant:
+2024-08-08 19:58:51,657 - INFO - [0.14012378454208374, 0.8583622574806213, ' No', 'No', 'No']
+2024-08-08 19:58:51,657 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC[NH+](CC)CCOC(=O)c1ccc(N)cc1
+Label: No
+Input SMILES: CC[NH+](CC)CCNC(=O)c1ccc(N)cc1
+Label: No
+Input SMILES: CC(=O)[N-]S(=O)(=O)c1ccc(N)cc1
+Label: No
+Input SMILES: CC(C)[NH2+]CC(O)c1ccc(NS(C)(=O)=O)cc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(/C=C/c1cccc(S(=O)(=O)Nc2ccccc2)c1)NO
+Answer: 
+Assistant:
+2024-08-08 19:59:01,988 - INFO - [0.4062846004962921, 0.591140627861023, ' No', 'No', 'Yes']
+2024-08-08 19:59:01,989 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC[NH+](CCO)CCCC(C)Nc1cc[nH+]c2cc(Cl)ccc12
+Label: No
+Input SMILES: NC(N)=[NH+]Cc1cccc([131I])c1
+Label: No
+Input SMILES: CC[NH+](CC)CCCC(C)Nc1cc[nH+]c2cc(Cl)ccc12
+Label: No
+Input SMILES: CCC1(c2ccc(N)cc2)CCC(=O)NC1=O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Nc1ccc(S(=O)(=O)[N-]c2ccnn2-c2ccccc2)cc1
+Answer: 
+Assistant:
+2024-08-08 19:59:12,238 - INFO - [0.4522242844104767, 0.545486569404602, ' No', 'No', 'No']
+2024-08-08 19:59:12,239 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O
+Label: No
+Input SMILES: Cc1nc2c([nH]1)CCN(C(=O)c1ccc(NC(=O)c3ccccc3-c3ccccc3)cc1)c1ccccc1-2
+Label: No
+Input SMILES: CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1
+Label: Yes
+Input SMILES: CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1.Cc1ccc(S(=O)(=O)O)cc1
+Label: Yes
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NS(=O)(=O)c1cc2c(cc1Cl)NC(CSCc1ccccc1)=NS2(=O)=O
+Answer: 
+Assistant:
+2024-08-08 19:59:26,343 - INFO - [0.498871386051178, 0.498871386051178, ' No', 'No', 'No']
+2024-08-08 19:59:26,343 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: O=C1CN=C(c2ccccc2Cl)c2cc([N+](=O)[O-])ccc2N1
+Label: No
+Input SMILES: Cc1onc(-c2ccccc2)c1-c1ccc(S(N)(=O)=O)cc1
+Label: No
+Input SMILES: CN(CCOc1ccc(CC2SC(=O)[N-]C2=O)cc1)c1ccccn1
+Label: No
+Input SMILES: CCc1nc(N)nc(N)c1-c1ccc(Cl)cc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(OCc1ccccc1)c1ccccc1
+Answer: 
+Assistant:
+2024-08-08 19:59:36,881 - INFO - [0.09515790641307831, 0.902833104133606, ' No', 'No', 'No']
+2024-08-08 19:59:36,881 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: C[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: CN1CC[NH+](CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1N(Cc2ccccc2)C2C[S+]3CCCC3C2N1Cc1ccccc1
+Answer: 
+Assistant:
+2024-08-08 19:59:49,008 - INFO - [0.3200410008430481, 0.6775267720222473, ' No', 'No', 'No']
+2024-08-08 19:59:49,008 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CNC1=[NH+]c2ccc(Cl)cc2C(c2ccccc2)=[N+]([O-])C1
+Label: No
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: c1ccc(CN(CC2=[NH+]CCN2)c2ccccc2)cc1
+Answer: 
+Assistant:
+2024-08-08 20:00:01,163 - INFO - [0.10074172168970108, 0.8979012370109558, ' No', 'No', 'No']
+2024-08-08 20:00:01,164 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCN(CC)C(=O)C1C[NH+]2CCc3cc(OC)c(OC)cc3C2CC1OC(C)=O
+Label: No
+Input SMILES: C[NH+](C)CCCN1c2ccccc2Sc2ccc(C(F)(F)F)cc21
+Label: No
+Input SMILES: COc1ccc(CC2c3cc(OC)c(OC)cc3CC[N+]2(C)CCC(=O)OCCCCCOC(=O)CC[N+]2(C)CCc3cc(OC)c(OC)cc3C2Cc2ccc(OC)c(OC)c2)cc1OC
+Label: No
+Input SMILES: COc1ccc2cc1Oc1cc3c(cc1OC)CC[N+](C)(C)[C@H]3Cc1ccc(cc1)Oc1c(OC)c(OC)cc3c1[C@@H](C2)[N+](C)(C)CC3
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: OCc1cc(C(O)C[NH2+]CCCCCCOCCCCc2ccccc2)ccc1O
+Answer: 
+Assistant:
+2024-08-08 20:00:15,427 - INFO - [0.29353272914886475, 0.7041484117507935, ' No', 'No', 'No']
+2024-08-08 20:00:15,427 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCc1c(Cl)c([O-])c(Cl)c(O)c1C(=O)O[C@H]1[C@H](O)[C@H](OC)[C@H](OC/C2=C\C=C\C[C@H](O)/C(C)=C/[C@H](CC)[C@@H](O[C@@H]3OC(C)(C)[C@@H](OC(=O)C(C)C)[C@H](O)[C@@H]3O)/C(C)=C/C(C)=C/C[C@@H]([C@@H](C)O)OC2=O)O[C@@H]1C
+Label: No
+Input SMILES: CC(=O)O[C@H]1Cc2ccccc2N(C(N)=O)c2ccccc21
+Label: Yes
+Input SMILES: [NH3+][C@@H](Cc1cc(I)c(Oc2ccc(O)c(I)c2)c(I)c1)C(=O)[O-]
+Label: No
+Input SMILES: CCCC[NH+](CCCC)CC(O)c1cc(Cl)cc2c1-c1ccc(Cl)cc1/C2=C/c1ccc(Cl)cc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NS(=O)(=O)c1cc2c(cc1C(F)(F)F)NC(Cc1ccccc1)NS2(=O)=O
+Answer: 
+Assistant:
+2024-08-08 20:00:31,736 - INFO - [0.6495186686515808, 0.3476622998714447, ' Yes', 'Yes', 'No']
+2024-08-08 20:00:31,736 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1
+Label: No
+Input SMILES: Cc1cccc(C[NH+]2CCN(C(c3ccccc3)c3ccc(Cl)cc3)CC2)c1
+Label: No
+Input SMILES: COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCC[NH+]1CCOCC1
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: Yes
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1CN=C(c2ccccc2)c2cc(Cl)ccc2N1CC1CC1
+Answer: 
+Assistant:
+2024-08-08 20:00:43,850 - INFO - [0.24476613104343414, 0.753932774066925, ' No', 'No', 'No']
+2024-08-08 20:00:43,851 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1cc(C#N)cc(C)c1Oc1nc(Nc2ccc(C#N)cc2)nc(N)c1Br
+Label: No
+Input SMILES: Cn1nnc2c(C(N)=O)ncn2c1=O
+Label: Yes
+Input SMILES: Cc1[nH]c(=O)c(C#N)cc1-c1ccncc1
+Label: No
+Input SMILES: CCCCCNC(=[NH2+])N/N=C/c1c[nH]c2ccc(OC)cc12
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C([O-])CCc1nc(-c2ccccc2)c(-c2ccccc2)o1
+Answer: 
+Assistant:
+2024-08-08 20:00:55,955 - INFO - [0.21164651215076447, 0.7863621711730957, ' No', 'No', 'No']
+2024-08-08 20:00:55,955 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCn1nc(C(=O)[O-])c(=O)c2cc3c(cc21)OCO3
+Label: No
+Input SMILES: O=C1c2c(O)ccc(O)c2C(=O)c2c(NCCNCCO)ccc(NCCNCCO)c21
+Label: Yes
+Input SMILES: CCN(CC)C(=O)C1C[NH+]2CCc3cc(OC)c(OC)cc3C2CC1OC(C)=O
+Label: No
+Input SMILES: CN1CCC[NH+]=C1COC(=O)C(O)(c1ccccc1)C1CCCCC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NC1=[NH+]C(=O)C(c2ccccc2)O1
+Answer: 
+Assistant:
+2024-08-08 20:01:08,219 - INFO - [0.4524625539779663, 0.545773983001709, ' No', 'No', 'No']
+2024-08-08 20:01:08,220 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCC1NC(=O)c2cc(S(N)(=O)=O)c(Cl)cc2N1
+Label: No
+Input SMILES: COC(=O)Nc1nc2cc(C(=O)c3ccccc3)ccc2[nH]1
+Label: No
+Input SMILES: NC(=[NH2+])NC(=O)c1nc(Cl)c(N)nc1N
+Label: No
+Input SMILES: CNS(=O)(=O)CCc1ccc2[nH]cc(C3CC[NH+](C)CC3)c2c1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Nc1nc(N)c2nc(-c3ccccc3)c(N)nc2n1
+Answer: 
+Assistant:
+2024-08-08 20:01:20,365 - INFO - [0.10080445557832718, 0.898460328578949, ' No', 'No', 'No']
+2024-08-08 20:01:20,366 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CN(CCOc1ccc(CC2SC(=O)[N-]C2=O)cc1)c1ccccn1
+Label: No
+Input SMILES: Cc1ccc(Cl)c(Nc2ccccc2C(=O)[O-])c1Cl
+Label: No
+Input SMILES: CN1C(=O)C(O)N=C(c2ccccc2)c2cc(Cl)ccc21
+Label: No
+Input SMILES: O=C([O-])C1N=C(c2ccccc2)c2cc(Cl)ccc2NC1=O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(OOC(=O)c1ccccc1)c1ccccc1
+Answer: 
+Assistant:
+2024-08-08 20:01:32,327 - INFO - [0.18193753063678741, 0.8153874278068542, ' No', 'No', 'No']
+2024-08-08 20:01:32,327 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: NC(=O)CCC1NC(=O)C(Cc2ccccc2)NC(=O)C(Cc2ccc(O)cc2)NC(=O)C([NH3+])CSSCC(C(=O)N2CCCC2C(=O)NC(CCC[NH+]=C(N)N)C(=O)NCC(N)=O)NC(=O)C(CC(N)=O)NC1=O
+Label: No
+Input SMILES: NC(=O)CCC1NC(=O)C(Cc2ccccc2)NC(=O)C(Cc2ccc(O)cc2)NC(=O)C([NH3+])CSSCC(C(=O)N2CCCC2C(=O)NC(CCCC[NH3+])C(=O)NCC(N)=O)NC(=O)C(CC(N)=O)NC1=O
+Label: No
+Input SMILES: O=C([O-])CCC(=O)OC[C@@H](NC(=O)[C-](Cl)Cl)[C@H](O)c1ccc([N+](=O)[O-])cc1
+Label: No
+Input SMILES: NC(=[NH2+])NCCC[C@@H](NC(=O)[C@@H]1CCCN1C(=O)[C@@H]1CSSCCC(=O)N[C@@H](Cc2ccc(O)cc2)C(=O)N[C@@H](Cc2ccccc2)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(N)=O)C(=O)N1)C(=O)NCC(N)=O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C([O-])c1ccc(NC(=O)C(Cc2ccc(O)cc2)NC(=O)c2ccccc2)cc1
+Answer: 
+Assistant:
+2024-08-08 20:01:52,467 - INFO - [0.20123951137065887, 0.7959176898002625, ' No', 'No', 'No']
+2024-08-08 20:01:52,467 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC[NH+](CC)CCOC(=O)c1ccc(N)cc1Cl
+Label: No
+Input SMILES: CCCCCNC(=[NH2+])N/N=C/c1c[nH]c2ccc(OC)cc12
+Label: No
+Input SMILES: Cn1nnc2c(C(N)=O)ncn2c1=O
+Label: Yes
+Input SMILES: CCCCNc1cc(C(=O)[O-])cc(S(N)(=O)=O)c1Oc1ccccc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(c1ccccc1)c1ccc2n1CCC2C(=O)[O-]
+Answer: 
+Assistant:
+2024-08-08 20:02:03,013 - INFO - [0.21179503202438354, 0.7869139909744263, ' No', 'No', 'No']
+2024-08-08 20:02:03,013 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: No
+Input SMILES: Clc1cc(Cl)c(OCC#CI)cc1Cl
+Label: No
+Input SMILES: CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: OC(CCC[NH+]1CCCCC1)(c1ccccc1)c1ccccc1
+Answer: 
+Assistant:
+2024-08-08 20:02:15,074 - INFO - [0.22231179475784302, 0.7759443521499634, ' No', 'No', 'No']
+2024-08-08 20:02:15,075 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: CC(=O)c1ccc2c(c1)N(CCC[NH+]1CCC(CCO)CC1)c1ccccc1S2
+Label: No
+Input SMILES: O=C([O-])COCC[NH+]1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1
+Label: No
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: OC(CC[NH+]1CCCCC1)(c1ccccc1)C1CCCCC1
+Answer: 
+Assistant:
+2024-08-08 20:02:27,190 - INFO - [0.14015237987041473, 0.8585374355316162, ' No', 'No', 'No']
+2024-08-08 20:02:27,191 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: CN1CC[NH+](CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: O=C([O-])COCC[NH+]1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: OC(CC[NH+]1CCCCC1)(c1ccccc1)C1CCCC1
+Answer: 
+Assistant:
+2024-08-08 20:02:39,239 - INFO - [0.14016304910182953, 0.85860276222229, ' No', 'No', 'No']
+2024-08-08 20:02:39,239 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: C[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: CN1CC[NH+](CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: OC(CC[NH+]1CCCCC1)(c1ccccc1)C1CC2C=CC1C2
+Answer: 
+Assistant:
+2024-08-08 20:02:51,618 - INFO - [0.21164269745349884, 0.7863479852676392, ' No', 'No', 'No']
+2024-08-08 20:02:51,618 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: CC(=O)c1ccc2c(c1)N(CCC[NH+]1CCC(CCO)CC1)c1ccccc1S2
+Label: No
+Input SMILES: O=C([O-])COCC[NH+]1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1
+Label: No
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: OC(CC[NH+]1CCCC1)(c1ccccc1)C1CCCCC1
+Answer: 
+Assistant:
+2024-08-08 20:03:03,685 - INFO - [0.14784936606884003, 0.8508144021034241, ' No', 'No', 'No']
+2024-08-08 20:03:03,686 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Input SMILES: O=C1Nc2ccc(Cl)cc2C(c2ccccc2)=NC1O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Clc1ccccc1C(c1ccccc1)(c1ccccc1)n1ccnc1
+Answer: 
+Assistant:
+2024-08-08 20:03:15,757 - INFO - [0.2014588862657547, 0.7967853546142578, ' No', 'No', 'No']
+2024-08-08 20:03:15,757 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O
+Label: No
+Input SMILES: CN1CCC(CNc2ccc3ncc(-c4cccc(OC(F)(F)F)c4)n3n2)CC1
+Label: Yes
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: Yes
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(OC1CC2CCC(C1)[N+]21CCCC1)C(O)(c1ccccc1)c1ccccc1
+Answer: 
+Assistant:
+2024-08-08 20:03:28,015 - INFO - [0.4826778769493103, 0.5138079524040222, ' No', 'No', 'No']
+2024-08-08 20:03:28,015 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: COc1cc(N)c(Cl)cc1C(=O)NC1CC[NH+](CCCOc2ccc(F)cc2)CC1OC
+Label: No
+Input SMILES: CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)[O-])cc1
+Label: No
+Input SMILES: CCC(=O)N(c1ccccc1)C1(COC)CC[NH+](CCn2nnn(CC)c2=O)CC1
+Label: No
+Input SMILES: CC(=O)Oc1cc2c(s1)CC[NH+](C(C(=O)C1CC1)c1ccccc1F)C2
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CC[NH+](CCc2ccc3c(c2)CCO3)C1
+Answer: 
+Assistant:
+2024-08-08 20:03:42,260 - INFO - [0.20147289335727692, 0.7968407869338989, ' No', 'No', 'No']
+2024-08-08 20:03:42,261 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1
+Label: No
+Input SMILES: CSc1ccc2c(c1)N(CCC1CCCC[NH+]1C)c1ccccc1S2
+Label: No
+Input SMILES: CC(=O)c1ccc2c(c1)N(CCC[NH+]1CCC(CCO)CC1)c1ccccc1S2
+Label: No
+Input SMILES: CCSc1ccc2c(c1)N(CCCN1CC[NH+](C)CC1)c1ccccc1S2
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: c1ccc([C@H]2CN3CCSC3=[NH+]2)cc1
+Answer: 
+Assistant:
+2024-08-08 20:03:54,412 - INFO - [0.2684105634689331, 0.7296154499053955, ' No', 'No', 'No']
+2024-08-08 20:03:54,413 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Clc1ccccc1C[NH+]1CCc2sccc2C1
+Label: No
+Input SMILES: CCCCOc1ccc(OCCC[NH+]2CCOCC2)cc1
+Label: No
+Input SMILES: C[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(O[C@H]1C[NH+]2CCC1CC2)N1CCc2ccccc2[C@@H]1c1ccccc1
+Answer: 
+Assistant:
+2024-08-08 20:04:06,492 - INFO - [0.2331729680299759, 0.7645447850227356, ' No', 'No', 'No']
+2024-08-08 20:04:06,493 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: [NH3+]Cc1ccccc1CC(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(CSc3nnnn3CC(=O)[O-])CS[C@H]12
+Label: No
+Input SMILES: Cn1nnnc1SCC1=C(C(=O)[O-])N2C(=O)[C@@H](NC(=O)[C@H](O)c3ccccc3)[C@H]2SC1
+Label: No
+Input SMILES: CC1=C(C(=O)[O-])N2C(=O)[C@@H](NC(=O)[C@H]([NH3+])C3=CCC=CC3)[C@H]2SC1
+Label: No
+Input SMILES: CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(COC(C)=O)CS[C@H]12)c1csc(N)n1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: [NH3+][C@@H](C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(Cl)CC[C@H]12)c1ccccc1
+Answer: 
+Assistant:
+2024-08-08 20:04:22,556 - INFO - [0.2809535562992096, 0.7174400687217712, ' No', 'No', 'No']
+2024-08-08 20:04:22,557 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: NC(N)=[NH+]C(=O)Cc1c(Cl)cccc1Cl
+Label: No
+Input SMILES: CCCSc1ccc2[nH]c(NC(=O)OC)nc2c1
+Label: No
+Input SMILES: COC(=O)Nc1nc2cc(C(=O)c3ccccc3)ccc2[nH]1
+Label: No
+Input SMILES: NC(=[NH2+])NC(=O)c1nc(Cl)c(N)nc1N
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Nc1ccc(/N=N/c2ccccc2)c(N)n1
+Answer: 
+Assistant:
+2024-08-08 20:04:32,977 - INFO - [0.10076151043176651, 0.8980776071548462, ' No', 'No', 'No']
+2024-08-08 20:04:32,977 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: COc1cc(N)c(Cl)cc1C(=O)NC1CC[NH+](CCCOc2ccc(F)cc2)CC1OC
+Label: No
+Input SMILES: O=C1CN=C(c2ccccc2)c2cc(Cl)ccc2N1CC(F)(F)F
+Label: No
+Input SMILES: C[NH+]1C2CC(OC(=O)C(CO)c3ccccc3)CC1C1OC12
+Label: No
+Input SMILES: CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)[O-])cc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Fc1ccccc1C1=NCC(=S)N(CC(F)(F)F)c2ccc(Cl)cc21
+Answer: 
+Assistant:
+2024-08-08 20:04:45,244 - INFO - [0.3914802372455597, 0.6063364148139954, ' No', 'No', 'No']
+2024-08-08 20:04:45,245 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: COc1ccnc(CS(=O)c2nc3ccc(OC(F)F)cc3[nH]2)c1OC
+Label: No
+Input SMILES: Cc1[nH+]cc2n1-c1ccc(Cl)cc1C(c1ccccc1F)=NC2
+Label: No
+Input SMILES: Cc1nc2c([nH]1)CCN(C(=O)c1ccc(NC(=O)c3ccccc3-c3ccccc3)cc1)c1ccccc1-2
+Label: No
+Input SMILES: CN(CCOc1ccc(CC2SC(=O)[N-]C2=O)cc1)c1ccccn1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C([O-])c1ccc(-n2nc(-c3ccccc3O)nc2-c2ccccc2O)cc1
+Answer: 
+Assistant:
+2024-08-08 20:04:57,447 - INFO - [0.3068540394306183, 0.6915062665939331, ' No', 'No', 'No']
+2024-08-08 20:04:57,447 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: NC(=O)CCC1NC(=O)C(Cc2ccccc2)NC(=O)C(Cc2ccc(O)cc2)NC(=O)C([NH3+])CSSCC(C(=O)N2CCCC2C(=O)NC(CCC[NH+]=C(N)N)C(=O)NCC(N)=O)NC(=O)C(CC(N)=O)NC1=O
+Label: No
+Input SMILES: NC(=O)CCC1NC(=O)C(Cc2ccccc2)NC(=O)C(Cc2ccc(O)cc2)NC(=O)C([NH3+])CSSCC(C(=O)N2CCCC2C(=O)NC(CCCC[NH3+])C(=O)NCC(N)=O)NC(=O)C(CC(N)=O)NC1=O
+Label: No
+Input SMILES: NC(=O)N/C=C1/NC(=O)[C@H](CNC(=O)C[C@@H]([NH3+])CCC[NH3+])NC(=O)[C@H](CO)NC(=O)[C@@H]([NH3+])CNC(=O)[C@H]([C@H]2CC[NH+]=C(N)N2)NC1=O
+Label: No
+Input SMILES: NC(=[NH2+])NCCC[C@@H](NC(=O)[C@@H]1CCCN1C(=O)[C@@H]1CSSCCC(=O)N[C@@H](Cc2ccc(O)cc2)C(=O)N[C@@H](Cc2ccccc2)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(N)=O)C(=O)N1)C(=O)NCC(N)=O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Nc1nc(N)c2nc(CNc3ccc(C(=O)N[C@@H](CCCNC(=O)c4ccccc4C(=O)O)C(=O)O)cc3)cnc2n1
+Answer: 
+Assistant:
+2024-08-08 20:05:19,849 - INFO - [0.36141297221183777, 0.6342995762825012, ' No', 'No', 'Yes']
+2024-08-08 20:05:19,849 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Clc1ccccc1C[NH+]1CCc2sccc2C1
+Label: No
+Input SMILES: C[NH+]1CCC(=C2c3ccccc3CCc3cccnc32)CC1
+Label: No
+Input SMILES: CCCCOc1ccc(OCCC[NH+]2CCOCC2)cc1
+Label: No
+Input SMILES: CCCCOCCOCCOCc1cc2c(cc1CCC)OCO2
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1c2cccc3c2[C@H](CCC3)CN1[C@@H]1C[NH+]2CCC1CC2
+Answer: 
+Assistant:
+2024-08-08 20:05:30,203 - INFO - [0.19157566130161285, 0.806563675403595, ' No', 'No', 'No']
+2024-08-08 20:05:30,203 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Input SMILES: O=C1Nc2ccc(Cl)cc2C(c2ccccc2)=NC1O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Clc1ccc(C(Cn2ccnc2)OCc2csc3c(Cl)cccc23)c(Cl)c1
+Answer: 
+Assistant:
+2024-08-08 20:05:42,242 - INFO - [0.37695279717445374, 0.6214901208877563, ' No', 'No', 'No']
+2024-08-08 20:05:42,242 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O
+Label: No
+Input SMILES: Clc1cc(Cl)c(OCC#CI)cc1Cl
+Label: No
+Input SMILES: CN1CCC(CNc2ccc3ncc(-c4cccc(OC(F)(F)F)c4)n3n2)CC1
+Label: Yes
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1CCc2cc(OCCCCc3nnnn3C3CCCCC3)ccc2N1
+Answer: 
+Assistant:
+2024-08-08 20:05:54,509 - INFO - [0.19158323109149933, 0.806595504283905, ' No', 'No', 'No']
+2024-08-08 20:05:54,509 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CNC1=[NH+]c2ccc(Cl)cc2C(c2ccccc2)=[N+]([O-])C1
+Label: No
+Input SMILES: CN1CCC(CNc2ccc3ncc(-c4cccc(OC(F)(F)F)c4)n3n2)CC1
+Label: Yes
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O
+Label: No
+Input SMILES: CCOC(=O)Nc1ccc2c(c1)N(C(=O)CC[NH+]1CCOCC1)c1ccccc1S2
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: OC(C[NH2+]CC(O)C1CCc2cc(F)ccc2O1)C1CCc2cc(F)ccc2O1
+Answer: 
+Assistant:
+2024-08-08 20:06:06,942 - INFO - [0.3340890109539032, 0.6644152998924255, ' No', 'No', 'No']
+2024-08-08 20:06:06,942 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CN1C(=O)CCS(=O)(=O)C1c1ccc(Cl)cc1
+Label: No
+Input SMILES: CC1=NS(=O)(=O)c2cc(Cl)ccc2N1
+Label: No
+Input SMILES: CC1(O)CC(c2nc(-c3ccc4ccc(-c5ccccc5)nc4c3)c3c(N)nccn23)C1
+Label: Yes
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=c1[nH]c2cc(Cl)ccc2o1
+Answer: 
+Assistant:
+2024-08-08 20:06:17,285 - INFO - [0.22241255640983582, 0.776296079158783, ' No', 'No', 'No']
+2024-08-08 20:06:17,285 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C[NH+](C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21
+Label: No
+Input SMILES: CC(=O)Oc1cc2c(s1)CC[NH+](C(C(=O)C1CC1)c1ccccc1F)C2
+Label: No
+Input SMILES: COc1cc(NCc2ccc3nc(N)nc(N)c3c2C)cc(OC)c1OC
+Label: No
+Input SMILES: COc1cc(N)c(Cl)cc1C(=O)NC1CC[NH+](CCCOc2ccc(F)cc2)CC1OC
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1Nc2ccc(Cl)cc2[C@@](C#CC2CC2)(C(F)(F)F)O1
+Answer: 
+Assistant:
+2024-08-08 20:06:29,438 - INFO - [0.33370885252952576, 0.6636593341827393, ' No', 'No', 'No']
+2024-08-08 20:06:29,438 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1nc2c([nH]1)CCN(C(=O)c1ccc(NC(=O)c3ccccc3-c3ccccc3)cc1)c1ccccc1-2
+Label: No
+Input SMILES: Cn1cnc([N+](=O)[O-])c1Sc1ncnc2nc[nH]c12
+Label: No
+Input SMILES: COc1ccnc(CS(=O)c2nc3ccc(OC(F)F)cc3[nH]2)c1OC
+Label: No
+Input SMILES: CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1
+Label: Yes
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: N#Cc1ccc2[nH]cc(CCCC[NH+]3CCN(c4ccc5oc(C(N)=O)cc5c4)CC3)c2c1
+Answer: 
+Assistant:
+2024-08-08 20:06:41,915 - INFO - [0.2331790179014206, 0.7645646333694458, ' No', 'No', 'No']
+2024-08-08 20:06:41,916 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: COc1cc(N)c(Cl)cc1C(=O)NC1CC[NH+](CCCOc2ccc(F)cc2)CC1OC
+Label: No
+Input SMILES: CCCC[NH+](CCCC)CCC(O)c1cc2c(Cl)cc(Cl)cc2c2cc(C(F)(F)F)ccc12
+Label: No
+Input SMILES: C[NH+]1C2CC(OC(=O)C(CO)c3ccccc3)CC1C1OC12
+Label: No
+Input SMILES: O=C1CN=C(c2ccccc2)c2cc(Cl)ccc2N1CC(F)(F)F
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1C([O-])=C([C@H]2CC[C@H](c3ccc(Cl)cc3)CC2)C(=O)c2ccccc21
+Answer: 
+Assistant:
+2024-08-08 20:06:54,326 - INFO - [0.2808370888233185, 0.7171427011489868, ' No', 'No', 'No']
+2024-08-08 20:06:54,326 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: O=C1OC2(c3cc([131I])c([O-])c([131I])c3Oc3c2cc([131I])c([O-])c3[131I])c2c(Cl)c(Cl)c(Cl)c(Cl)c21
+Label: No
+Input SMILES: COc1ccc(CC2c3cc(OC)c(OC)cc3CC[N+]2(C)CCC(=O)OCCCCCOC(=O)CC[N+]2(C)CCc3cc(OC)c(OC)cc3C2Cc2ccc(OC)c(OC)c2)cc1OC
+Label: No
+Input SMILES: CCN(CC)C(=O)C1C[NH+]2CCc3cc(OC)c(OC)cc3C2CC1OC(C)=O
+Label: No
+Input SMILES: CCCC[NH+](CCCC)CCC(O)c1cc2c(Cl)cc(Cl)cc2c2cc(C(F)(F)F)ccc12
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: OC(c1cc(C(F)(F)F)nc2c(C(F)(F)F)cccc12)C1CCCC[NH2+]1
+Answer: 
+Assistant:
+2024-08-08 20:07:08,605 - INFO - [0.2809740900993347, 0.7174925208091736, ' No', 'No', 'No']
+2024-08-08 20:07:08,606 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C[NH+](C)[C@@H]1C([O-])=C(C(N)=O)C(=O)[C@@]2(O)C([O-])=C3C(=O)c4c([O-])cccc4[C@@](C)(O)[C@H]3[C@H](O)[C@@H]12
+Label: No
+Input SMILES: C[NH+](C)[C@@H]1C([O-])=C(C(N)=O)C(=O)[C@@]2(O)C([O-])=C3C(=O)c4c([O-])cccc4[C@@](C)(O)[C@H]3C[C@@H]12
+Label: No
+Input SMILES: C[NH+](C)[C@@H]1C([O-])=C(C(N)=O)C(=O)[C@@]2(O)C([O-])=C3C(=O)c4c([O-])ccc(Cl)c4[C@@H](O)[C@H]3C[C@@H]12
+Label: No
+Input SMILES: CC[NH2+][C@H]1CN(CCCOC)S(=O)(=O)c2sc(S(N)(=O)=O)cc21
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C([O-])c1cc(=O)c2c(OCC(O)COc3cccc4oc(C(=O)[O-])cc(=O)c34)cccc2o1
+Answer: 
+Assistant:
+2024-08-08 20:07:24,794 - INFO - [0.33325427770614624, 0.6627552509307861, ' No', 'No', 'No']
+2024-08-08 20:07:24,794 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Clc1ccccc1C[NH+]1CCc2sccc2C1
+Label: No
+Input SMILES: CCCCOc1ccc(OCCC[NH+]2CCOCC2)cc1
+Label: No
+Input SMILES: C[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1O[Pt]OC(=O)C12CCC2
+Answer: 
+Assistant:
+2024-08-08 20:07:35,255 - INFO - [0.39084649085998535, 0.605354905128479, ' No', 'No', 'No']
+2024-08-08 20:07:35,256 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: NC(=O)N/N=C/c1ccc([N+](=O)[O-])o1
+Label: No
+Input SMILES: C=CCC1(C(C)CCC)C(=O)NC(=O)NC1=O
+Label: No
+Input SMILES: CC(=O)[N-]S(=O)(=O)c1ccc(N)cc1
+Label: No
+Input SMILES: CC[NH+](CC)CCOC(=O)c1ccc(N)cc1Cl
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1OCCN1/N=C/c1ccc([N+](=O)[O-])o1
+Answer: 
+Assistant:
+2024-08-08 20:07:45,637 - INFO - [0.32044297456741333, 0.6783778071403503, ' No', 'No', 'No']
+2024-08-08 20:07:45,638 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC[NH2+][C@H]1CN(CCCOC)S(=O)(=O)c2sc(S(N)(=O)=O)cc21
+Label: No
+Input SMILES: C[NH+](C)[C@@H]1C([O-])=C(C(N)=O)C(=O)[C@@]2(O)C([O-])=C3C(=O)c4c([O-])cccc4[C@@](C)(O)[C@H]3[C@H](O)[C@@H]12
+Label: No
+Input SMILES: C[NH+](C)[C@@H]1C([O-])=C(C(N)=O)C(=O)[C@@]2(O)C([O-])=C3C(=O)c4c([O-])cccc4[C@@](C)(O)[C@H]3C[C@@H]12
+Label: No
+Input SMILES: C[NH+](C)[C@@H]1C([O-])=C(C(N)=O)C(=O)[C@@]2(O)C([O-])=C3C(=O)c4c([O-])ccc(Cl)c4[C@@H](O)[C@H]3C[C@@H]12
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1CN(/N=C/c2ccc([N+](=O)[O-])o2)C(=O)N1
+Answer: 
+Assistant:
+2024-08-08 20:08:01,716 - INFO - [0.49820569157600403, 0.49820569157600403, ' No', 'No', 'No']
+2024-08-08 20:08:01,717 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC(=O)[N-]S(=O)(=O)c1ccc(N)cc1
+Label: No
+Input SMILES: CC[NH+](CC)CCOC(=O)c1ccc(N)cc1
+Label: No
+Input SMILES: CC[NH+](CC)CCNC(=O)c1ccc(N)cc1
+Label: No
+Input SMILES: C=CCC1(C(C)C#CCC)C(=O)NC(=O)N(C)C1=O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NS(=O)(=O)c1cc(C(=O)[O-])c(NCc2ccco2)cc1Cl
+Answer: 
+Assistant:
+2024-08-08 20:08:12,109 - INFO - [0.5758964419364929, 0.42133480310440063, ' Yes', 'Yes', 'No']
+2024-08-08 20:08:12,110 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Input SMILES: Cc1cccc(C[NH+]2CCN(C(c3ccccc3)c3ccc(Cl)cc3)CC2)c1
+Label: No
+Input SMILES: CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1
+Label: No
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1CCc2ccc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)cc2N1
+Answer: 
+Assistant:
+2024-08-08 20:08:24,395 - INFO - [0.23316335678100586, 0.7645132541656494, ' No', 'No', 'Yes']
+2024-08-08 20:08:24,396 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CS(=O)(=O)O.Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1
+Label: Yes
+Input SMILES: CN(C)N/N=C1/N=CN=C1C(N)=O
+Label: Yes
+Input SMILES: N#Cc1cc(NC(=O)C(=O)[O-])c(Cl)c(NC(=O)C(=O)[O-])c1
+Label: No
+Input SMILES: CCCS(=O)(=O)Nc1ccc(F)c(C(=O)c2c[nH]c3ncc(-c4ccc(Cl)cc4)cc23)c1F
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: [NH2+]=C(NCCCCCCNC(=[NH2+])NC(=[NH2+])Nc1ccc(Cl)cc1)NC(=[NH2+])Nc1ccc(Cl)cc1
+Answer: 
+Assistant:
+2024-08-08 20:08:38,559 - INFO - [0.5908581614494324, 0.40609049797058105, ' Yes', 'Yes', 'No']
+2024-08-08 20:08:38,560 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CO[C@@]1(NC(=O)C(C(=O)[O-])c2ccc(O)cc2)C(=O)N2C(C(=O)[O-])=C(CSc3nnnn3C)CO[C@@H]21
+Label: No
+Input SMILES: N#Cc1cc(NC(=O)C(=O)[O-])c(Cl)c(NC(=O)C(=O)[O-])c1
+Label: No
+Input SMILES: CS(=O)(=O)O.Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1
+Label: Yes
+Input SMILES: CO[C@@]1(NC(=O)C2SC(=C(C(N)=O)C(=O)[O-])S2)C(=O)N2C(C(=O)[O-])=C(CSc3nnnn3C)CS[C@@H]21
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1
+Answer: 
+Assistant:
+2024-08-08 20:08:54,435 - INFO - [0.28074970841407776, 0.7169195413589478, ' No', 'No', 'No']
+2024-08-08 20:08:54,435 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Input SMILES: O=C1Nc2ccc(Cl)cc2C(c2ccccc2)=NC1O
+Label: No
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Clc1ccc(CSC(Cn2ccnc2)c2ccc(Cl)cc2Cl)cc1
+Answer: 
+Assistant:
+2024-08-08 20:09:06,656 - INFO - [0.2686232328414917, 0.730193555355072, ' No', 'No', 'No']
+2024-08-08 20:09:06,656 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: C[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: CN1CC[NH+](CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: c1cc(C[NH+]2CCCNCC[NH2+]CCCNCC2)ccc1C[NH+]1CCCNCC[NH2+]CCCNCC1
+Answer: 
+Assistant:
+2024-08-08 20:09:18,861 - INFO - [0.26828429102897644, 0.7292722463607788, ' No', 'No', 'No']
+2024-08-08 20:09:18,861 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: COC(=O)Nc1nc2cc(C(=O)c3ccccc3)ccc2[nH]1
+Label: No
+Input SMILES: Cc1cnc(C(=O)NCCc2ccc(S(=O)(=O)[N-]C(=O)NC3CCCCC3)cc2)cn1
+Label: No
+Input SMILES: CO/N=C1\CN(c2nc3c(cc2F)c(=O)c(C(=O)[O-])cn3C2CC2)CC1C[NH3+]
+Label: No
+Input SMILES: CNS(=O)(=O)CCc1ccc2[nH]cc(C3CC[NH+](C)CC3)c2c1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1CN(/N=C/c2ccc(-c3ccc([N+](=O)[O-])cc3)o2)C(=O)N1
+Answer: 
+Assistant:
+2024-08-08 20:09:31,199 - INFO - [0.4831743538379669, 0.5143364071846008, ' No', 'No', 'No']
+2024-08-08 20:09:31,200 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cn1nc(C(=O)NC2CC3CCCC(C2)[NH+]3C)c2ccccc21
+Label: No
+Input SMILES: CNC1=[NH+]c2ccc(Cl)cc2C(c2ccccc2)=[N+]([O-])C1
+Label: No
+Input SMILES: O=C1CN=C(c2ccccc2)c2cc(Cl)ccc2N1CC(F)(F)F
+Label: No
+Input SMILES: C[NH+]1C2CC(OC(=O)C(CO)c3ccccc3)CC1C1OC12
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Oc1ccc(C2C[NH2+]CCc3c2cc(O)c(O)c3Cl)cc1
+Answer: 
+Assistant:
+2024-08-08 20:09:43,326 - INFO - [0.37697404623031616, 0.6215251684188843, ' No', 'No', 'No']
+2024-08-08 20:09:43,327 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCCCCNC(=[NH2+])N/N=C/c1c[nH]c2ccc(OC)cc12
+Label: No
+Input SMILES: CCOc1ccc(-c2cc(C)cn2-c2ccc(S(N)(=O)=O)cc2)cc1
+Label: Yes
+Input SMILES: Cc1[nH]c(=O)c(C#N)cc1-c1ccncc1
+Label: No
+Input SMILES: Cc1cc(C#N)cc(C)c1Oc1nc(Nc2ccc(C#N)cc2)nc(N)c1Br
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(c1ccc(OCC[NH+]2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12
+Answer: 
+Assistant:
+2024-08-08 20:09:55,659 - INFO - [0.3068942129611969, 0.6915968060493469, ' No', 'No', 'No']
+2024-08-08 20:09:55,660 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC[NH2+][C@H]1CN(CCCOC)S(=O)(=O)c2sc(S(N)(=O)=O)cc21
+Label: No
+Input SMILES: [NH3+]Cc1ccccc1CC(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(CSc3nnnn3CC(=O)[O-])CS[C@H]12
+Label: No
+Input SMILES: COc1cc(C(=O)[N-]S(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12
+Label: No
+Input SMILES: COc1cccc(OC)c1C(=O)N[C@@H]1C(=O)N2[C@@H]1SC(C)(C)[C@@H]2C(=O)[O-]
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C([O-])CCNC(=O)c1ccc(N/N=C2/C=CC(=O)C(C(=O)[O-])=C2)cc1
+Answer: 
+Assistant:
+2024-08-08 20:10:09,996 - INFO - [0.2808517813682556, 0.7171801328659058, ' No', 'No', 'No']
+2024-08-08 20:10:09,996 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: NC(=O)CCC1NC(=O)C(Cc2ccccc2)NC(=O)C(Cc2ccc(O)cc2)NC(=O)C([NH3+])CSSCC(C(=O)N2CCCC2C(=O)NC(CCC[NH+]=C(N)N)C(=O)NCC(N)=O)NC(=O)C(CC(N)=O)NC1=O
+Label: No
+Input SMILES: NC(=O)CCC1NC(=O)C(Cc2ccccc2)NC(=O)C(Cc2ccc(O)cc2)NC(=O)C([NH3+])CSSCC(C(=O)N2CCCC2C(=O)NC(CCCC[NH3+])C(=O)NCC(N)=O)NC(=O)C(CC(N)=O)NC1=O
+Label: No
+Input SMILES: NC(=O)N/C=C1/NC(=O)[C@H](CNC(=O)C[C@@H]([NH3+])CCC[NH3+])NC(=O)[C@H](CO)NC(=O)[C@@H]([NH3+])CNC(=O)[C@H]([C@H]2CC[NH+]=C(N)N2)NC1=O
+Label: No
+Input SMILES: NC(=[NH2+])NCCC[C@@H](NC(=O)[C@@H]1CCCN1C(=O)[C@@H]1CSSCCC(=O)N[C@@H](Cc2ccc(O)cc2)C(=O)N[C@@H](Cc2ccccc2)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(N)=O)C(=O)N1)C(=O)NCC(N)=O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Nc1nc(=O)c2nc(CNc3ccc(C(=O)N[C@@H](CCC(=O)[O-])C(=O)[O-])cc3)cnc2[nH]1
+Answer: 
+Assistant:
+2024-08-08 20:10:32,225 - INFO - [0.42103078961372375, 0.5754808783531189, ' No', 'No', 'No']
+2024-08-08 20:10:32,226 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Input SMILES: Cc1cccc(C[NH+]2CCN(C(c3ccccc3)c3ccc(Cl)cc3)CC2)c1
+Label: No
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(CCC[NH+]1CCC(O)(c2ccc(Cl)cc2)CC1)c1ccc(F)cc1
+Answer: 
+Assistant:
+2024-08-08 20:10:44,481 - INFO - [0.3068297505378723, 0.6914514899253845, ' No', 'No', 'No']
+2024-08-08 20:10:44,481 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC[NH+](CC)CCNC(=O)c1cc(Cl)c(N)cc1OC
+Label: No
+Input SMILES: Cc1onc(-c2ccccc2)c1-c1ccc(S(N)(=O)=O)cc1
+Label: No
+Input SMILES: COc1ccc2nc(S(=O)Cc3ncc(C)c(OC)c3C)[nH]c2c1
+Label: No
+Input SMILES: CN(CCOc1ccc(CC2SC(=O)[N-]C2=O)cc1)c1ccccn1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: N#Cc1ccc(C(c2ccc(C#N)cc2)n2cncn2)cc1
+Answer: 
+Assistant:
+2024-08-08 20:10:56,651 - INFO - [0.1478314995765686, 0.8507116436958313, ' No', 'No', 'Yes']
+2024-08-08 20:10:56,652 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CN1CCC(CNc2ccc3ncc(-c4cccc(OC(F)(F)F)c4)n3n2)CC1
+Label: Yes
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1
+Label: No
+Input SMILES: CSc1ccc2c(c1)N(CCC1CCCC[NH+]1C)c1ccccc1S2
+Label: No
+Input SMILES: CCSc1ccc2c(c1)N(CCCN1CC[NH+](C)CC1)c1ccccc1S2
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Fc1ccc([C@@H]2CC[NH2+]C[C@H]2COc2ccc3c(c2)OCO3)cc1
+Answer: 
+Assistant:
+2024-08-08 20:11:08,879 - INFO - [0.30672553181648254, 0.6912166476249695, ' No', 'No', 'No']
+2024-08-08 20:11:08,880 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C[NH+](C)CCCN1c2ccccc2Sc2ccc(C(F)(F)F)cc21
+Label: No
+Input SMILES: COc1cc2c3cc1Oc1cc(ccc1O)C[C@@H]1c4c(cc(OC)c(O)c4Oc4ccc(cc4)C[C@@H]3[NH+](C)CC2)CC[N+]1(C)C
+Label: No
+Input SMILES: O=C1OC2(c3cc([131I])c([O-])c([131I])c3Oc3c2cc([131I])c([O-])c3[131I])c2c(Cl)c(Cl)c(Cl)c(Cl)c21
+Label: No
+Input SMILES: C[C@@H]1O[C@@H]1P(=O)([O-])[O-]
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1[C@H](CC[C@H](O)c2ccc(F)cc2)[C@@H](c2ccc(O)cc2)N1c1ccc(F)cc1
+Answer: 
+Assistant:
+2024-08-08 20:11:23,169 - INFO - [0.16416940093040466, 0.8337211012840271, ' No', 'No', 'No']
+2024-08-08 20:11:23,169 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCC(=O)[C@@]1(C)[C@H](C)CC2C3CCC4=CC(=O)C=C[C@]4(C)C3[C@@H](O)C[C@@]21C
+Label: No
+Input SMILES: CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(O)c4c(O)c(c5c(nc6cc(C)ccn65)c4c3C2=O)NC(=O)/C(C)=C\C=C\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C
+Label: No
+Input SMILES: CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(O)c4c(O)c(c(/C=N/N5CC[NH+](C6CCCC6)CC5)c(O)c4c3C2=O)NC(=O)/C(C)=C\C=C\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C
+Label: No
+Input SMILES: CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(O)c4c(O)c(c(/C=N/N5CC[NH+](C)CC5)c(O)c4c3C2=O)NC(=O)/C(C)=C\C=C\[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Oc1ccc2c3c1O[C@H]1[C@@H](O)CC[C@@]4(O)[C@@H](C2)[NH+](CC2CCC2)CC[C@]314
+Answer: 
+Assistant:
+2024-08-08 20:11:43,524 - INFO - [0.45212167501449585, 0.5453628301620483, ' No', 'No', 'No']
+2024-08-08 20:11:43,525 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC(C)C(=O)Nc1ccc([N+](=O)[O-])c(C(F)(F)F)c1
+Label: No
+Input SMILES: CCCCc1[nH+]cc(/C=C(\Cc2cccs2)C(=O)[O-])n1Cc1ccc(C(=O)[O-])cc1
+Label: No
+Input SMILES: CN/C(=C\[N+](=O)[O-])[NH2+]CCSCc1csc(C[NH+](C)C)n1
+Label: No
+Input SMILES: O=C([O-])CN(CC[NH+](CC(=O)[O-])CC(=O)[O-])CC(=O)[O-]
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: N.N.O=C(O)C1(C(=O)O)CCC1.[Pt]
+Answer: 
+Assistant:
+2024-08-08 20:11:55,827 - INFO - [0.6206725835800171, 0.37645697593688965, ' Yes', 'Yes', 'Yes']
+2024-08-08 20:11:55,827 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: COc1cc(N)c(Cl)cc1C(=O)NC1CC[NH+](CCCOc2ccc(F)cc2)CC1OC
+Label: No
+Input SMILES: O=C1CN=C(c2ccccc2)c2cc(Cl)ccc2N1CC(F)(F)F
+Label: No
+Input SMILES: C[NH+]1C2CC(OC(=O)C(CO)c3ccccc3)CC1C1OC12
+Label: No
+Input SMILES: Cn1nc(C(=O)NC2CC3CCCC(C2)[NH+]3C)c2ccccc21
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(NCC1CCCC[NH2+]1)c1cc(OCC(F)(F)F)ccc1OCC(F)(F)F
+Answer: 
+Assistant:
+2024-08-08 20:12:08,119 - INFO - [0.333985835313797, 0.6642101407051086, ' No', 'No', 'No']
+2024-08-08 20:12:08,120 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: Yes
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: OC(Cn1cncn1)(Cn1cncn1)c1ccc(F)cc1F
+Answer: 
+Assistant:
+2024-08-08 20:12:20,327 - INFO - [0.3480876088142395, 0.6503131985664368, ' No', 'No', 'No']
+2024-08-08 20:12:20,328 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1
+Label: Yes
+Input SMILES: CN1C(=O)CCS(=O)(=O)C1c1ccc(Cl)cc1
+Label: No
+Input SMILES: CC1=NS(=O)(=O)c2cc(Cl)ccc2N1
+Label: No
+Input SMILES: CC1Cc2ccccc2N1NC(=O)c1ccc(Cl)c(S(N)(=O)=O)c1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Clc1ccc(CO/N=C(/Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Answer: 
+Assistant:
+2024-08-08 20:12:32,534 - INFO - [0.5451125502586365, 0.4519141912460327, ' Yes', 'Yes', 'No']
+2024-08-08 20:12:32,535 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CN1C(=O)CCS(=O)(=O)C1c1ccc(Cl)cc1
+Label: No
+Input SMILES: CC1=NS(=O)(=O)c2cc(Cl)ccc2N1
+Label: No
+Input SMILES: Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1
+Label: Yes
+Input SMILES: Cc1cnc(NC(=O)C2=C(O)c3ccccc3S(=O)(=O)N2C)s1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(NS(=O)(=O)c1ccc(Br)s1)c1ccc(Cl)cc1Cl
+Answer: 
+Assistant:
+2024-08-08 20:12:44,647 - INFO - [0.7417429685592651, 0.25633952021598816, ' Yes', 'Yes', 'Yes']
+2024-08-08 20:12:44,648 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Input SMILES: O=C1Nc2ccc(Cl)cc2C(c2ccccc2)=NC1O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Clc1ccc(C(Cn2ccnc2)OCc2ccsc2Cl)c(Cl)c1
+Answer: 
+Assistant:
+2024-08-08 20:12:56,820 - INFO - [0.3204032778739929, 0.6782937049865723, ' No', 'No', 'No']
+2024-08-08 20:12:56,820 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CNC1=[NH+]c2ccc(Cl)cc2C(c2ccccc2)=[N+]([O-])C1
+Label: No
+Input SMILES: COc1ccnc(CS(=O)c2nc3ccc(OC(F)F)cc3[nH]2)c1OC
+Label: No
+Input SMILES: COc1cc(N)c(Cl)cc1C(=O)NC1CC[NH+](CCCOc2ccc(F)cc2)CC1OC
+Label: No
+Input SMILES: Oc1c(Cl)cc(Cl)c(Cl)c1Cc1c(O)c(Cl)cc(Cl)c1Cl
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(Nc1c(Cl)cncc1Cl)c1ccc(OC(F)F)c(OCC2CC2)c1
+Answer: 
+Assistant:
+2024-08-08 20:13:09,064 - INFO - [0.32033413648605347, 0.6781473159790039, ' No', 'No', 'No']
+2024-08-08 20:13:09,065 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: O=[99Tc](=O)(=O)[O-]
+Label: No
+Input SMILES: [NH3+]CCCC([NH3+])(C(=O)[O-])C(F)F
+Label: No
+Input SMILES: COCCCC/C(=N\OCC[NH3+])c1ccc(C(F)(F)F)cc1
+Label: No
+Input SMILES: COc1ccc(CC[NH+](C)CCCC(C#N)(c2ccc(OC)c(OC)c2)C(C)C)cc1OC
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1CCCC(=O)[C-]1C(=O)c1ccc(C(F)(F)F)cc1[N+](=O)[O-]
+Answer: 
+Assistant:
+2024-08-08 20:13:21,252 - INFO - [0.6644928455352783, 0.3341279923915863, ' Yes', 'Yes', 'No']
+2024-08-08 20:13:21,253 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC1Cc2ccccc2N1NC(=O)c1ccc(Cl)c(S(N)(=O)=O)c1
+Label: No
+Input SMILES: NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O
+Label: No
+Input SMILES: Cc1ccccc1N1C(=O)c2cc(S(N)(=O)=O)c(Cl)cc2NC1C
+Label: No
+Input SMILES: CC[NH+](CC)CCNC(=O)c1cc(Cl)c(N)cc1OC
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(Nc1ccc([N+](=O)[O-])cc1Cl)c1cc(Cl)ccc1O
+Answer: 
+Assistant:
+2024-08-08 20:13:33,324 - INFO - [0.5458199381828308, 0.4525006115436554, ' Yes', 'Yes', 'No']
+2024-08-08 20:13:33,324 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCC1=C(C)CN(C(=O)NCCc2ccc(S(=O)(=O)[N-]C(=O)NC3CCC(C)CC3)cc2)C1=O
+Label: No
+Input SMILES: O=S([O-])CNc1ccc(S(=O)(=O)c2ccc(NCS(=O)[O-])cc2)cc1
+Label: No
+Input SMILES: COc1cc(C(=O)[N-]S(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12
+Label: No
+Input SMILES: Cc1c2oc3c(C)ccc(C(=O)NC4C(=O)NC(C(C)C)C(=O)N5CCCC5C(=O)N(C)CC(=O)N(C)C(C(C)C)C(=O)OC4C)c3nc-2c(C(=O)NC2C(=O)NC(C(C)C)C(=O)N3CCCC3C(=O)N(C)CC(=O)N(C)C(C(C)C)C(=O)OC2C)c(N)c1=O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C([O-])c1cc(/N=N/c2ccc(O)c(C(=O)[O-])c2)ccc1O
+Answer: 
+Assistant:
+2024-08-08 20:13:49,611 - INFO - [0.4364801347255707, 0.5604515671730042, ' No', 'No', 'No']
+2024-08-08 20:13:49,611 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Clc1ccccc1C[NH+]1CCc2sccc2C1
+Label: No
+Input SMILES: C[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: OCC[NH+]1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Clc1ccc2nsnc2c1NC1=[NH+]CCN1
+Answer: 
+Assistant:
+2024-08-08 20:14:00,086 - INFO - [0.26851916313171387, 0.729910671710968, ' No', 'No', 'No']
+2024-08-08 20:14:00,086 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CN1CCC(CNc2ccc3ncc(-c4cccc(OC(F)(F)F)c4)n3n2)CC1
+Label: Yes
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: No
+Input SMILES: CNC1=[NH+]c2ccc(Cl)cc2C(c2ccccc2)=[N+]([O-])C1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Brc1c(NC2=[NH+]CCN2)ccc2nccnc12
+Answer: 
+Assistant:
+2024-08-08 20:14:12,287 - INFO - [0.42146748304367065, 0.5760777592658997, ' No', 'No', 'No']
+2024-08-08 20:14:12,288 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: No
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1CN2Cc3c(ccc(Cl)c3Cl)[NH+]=C2N1
+Answer: 
+Assistant:
+2024-08-08 20:14:24,443 - INFO - [0.5612298846244812, 0.437086284160614, ' Yes', 'Yes', 'No']
+2024-08-08 20:14:24,443 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1
+Label: Yes
+Input SMILES: CC1=NS(=O)(=O)c2cc(Cl)ccc2N1
+Label: No
+Input SMILES: Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CC[NH+](CCO)CC2)n1
+Label: No
+Input SMILES: CC1Cc2ccccc2N1NC(=O)c1ccc(Cl)c(S(N)(=O)=O)c1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NC(=O)c1cn(Cc2c(F)cccc2F)nn1
+Answer: 
+Assistant:
+2024-08-08 20:14:36,631 - INFO - [0.09001730382442474, 0.9091424942016602, ' No', 'No', 'No']
+2024-08-08 20:14:36,632 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Nc1cc(Cl)c(NC2=[NH+]CCN2)c(Cl)c1
+Label: No
+Input SMILES: CCc1nn(CCC[NH+]2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1
+Label: No
+Input SMILES: O=C1Nc2ccc(Cl)cc2C(c2ccccc2)=NC1O
+Label: No
+Input SMILES: Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Clc1ccc(CCC(Cn2ccnc2)Sc2c(Cl)cccc2Cl)cc1
+Answer: 
+Assistant:
+2024-08-08 20:14:48,795 - INFO - [0.32032230496406555, 0.6781222820281982, ' No', 'No', 'No']
+2024-08-08 20:14:48,795 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O
+Label: No
+Input SMILES: COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCC[NH+]1CCOCC1
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: Yes
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1CCc2ccc(OCCCC[NH+]3CCN(c4cccc(Cl)c4Cl)CC3)cc2N1
+Answer: 
+Assistant:
+2024-08-08 20:15:01,001 - INFO - [0.3766687512397766, 0.6210217475891113, ' No', 'No', 'No']
+2024-08-08 20:15:01,001 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CC[NH+](CCO)CC2)n1
+Label: No
+Input SMILES: Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1
+Label: Yes
+Input SMILES: Cc1ccc(NC(=O)c2ccc(CN3CC[NH+](C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1
+Label: No
+Input SMILES: Cc1cnc(NC(=O)C2=C(O)c3ccccc3S(=O)(=O)N2C)s1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Nc1nnc(-c2cccc(Cl)c2Cl)c(N)n1
+Answer: 
+Assistant:
+2024-08-08 20:15:13,315 - INFO - [0.25626593828201294, 0.7415300011634827, ' No', 'No', 'No']
+2024-08-08 20:15:13,315 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CN1CCC(CNc2ccc3ncc(-c4cccc(OC(F)(F)F)c4)n3n2)CC1
+Label: Yes
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O
+Label: No
+Input SMILES: Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+Label: No
+Input SMILES: CCOC(=O)Nc1ccc2c(c1)N(C(=O)CC[NH+]1CCOCC1)c1ccccc1S2
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: C1=C/C(=C2\N=c3cnc4c(c3=N2)COCC4)NO1
+Answer: 
+Assistant:
+2024-08-08 20:15:25,651 - INFO - [0.3618602454662323, 0.6350845098495483, ' No', 'No', 'No']
+2024-08-08 20:15:25,651 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Cc1nc2c([nH]1)CCN(C(=O)c1ccc(NC(=O)c3ccccc3-c3ccccc3)cc1)c1ccccc1-2
+Label: No
+Input SMILES: NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O
+Label: No
+Input SMILES: CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1
+Label: Yes
+Input SMILES: CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1.Cc1ccc(S(=O)(=O)O)cc1
+Label: Yes
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NS(=O)(=O)c1cc2c(cc1Cl)NC(C1CC3C=CC1C3)NS2(=O)=O
+Answer: 
+Assistant:
+2024-08-08 20:15:39,879 - INFO - [0.3914450407028198, 0.6062819361686707, ' No', 'No', 'No']
+2024-08-08 20:15:39,879 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CN1C(CSCC(F)(F)F)Nc2cc(Cl)c(S(N)(=O)=O)cc2S1(=O)=O
+Label: No
+Input SMILES: CCCS(=O)(=O)Nc1ccc(F)c(C(=O)c2c[nH]c3ncc(-c4ccc(Cl)cc4)cc23)c1F
+Label: No
+Input SMILES: [NH3+][C@@H]1[C@H]2CN(c3nc4c(cc3F)c(=O)c(C(=O)[O-])cn4-c3ccc(F)cc3F)C[C@@H]12
+Label: No
+Input SMILES: C[C@@H]1CN(c2c(F)c(N)c3c(=O)c(C(=O)[O-])cn(C4CC4)c3c2F)C[C@H](C)[NH2+]1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: [NH3+][C@@H]1CCCCN(c2c(F)cc3c(=O)c(C(=O)[O-])cn(C4CC4)c3c2Cl)C1
+Answer: 
+Assistant:
+2024-08-08 20:15:54,124 - INFO - [0.29375460743904114, 0.7046806812286377, ' No', 'No', 'No']
+2024-08-08 20:15:54,124 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1
+Label: No
+Input SMILES: Clc1cc(Cl)c(OCC#CI)cc1Cl
+Label: No
+Input SMILES: C[NH+]1CCN(C2=[NH+]c3ccccc3Oc3ccc(Cl)cc32)CC1
+Label: No
+Input SMILES: O=C([O-])COCC[NH+]1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Oc1ncnc2[nH]ncc12
+Answer: 
+Assistant:
+2024-08-08 20:16:04,428 - INFO - [0.347956120967865, 0.6500675678253174, ' No', 'No', 'No']
+2024-08-08 20:16:04,428 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(Sc3nc(-c4cc[n+](C)cc4)cs3)CS[C@H]12)c1nsc(NP(=O)([O-])[O-])n1
+Label: No
+Input SMILES: CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(COC(C)=O)CS[C@H]12)c1csc(N)n1
+Label: No
+Input SMILES: CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=CCS[C@H]12)c1csc(N)n1
+Label: No
+Input SMILES: CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)OC(C)OC(C)=O)=C(COC(N)=O)CS[C@H]12)c1ccco1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Nc1nc(/C(=C/CC(=O)[O-])C(=O)N[C@@H]2C(=O)N3C(C(=O)[O-])=CCS[C@H]23)cs1
+Answer: 
+Assistant:
+2024-08-08 20:16:20,773 - INFO - [0.24472646415233612, 0.7538105845451355, ' No', 'No', 'No']
+2024-08-08 20:16:20,773 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: C[NH+](C)[C@@H]1C([O-])=C(C(N)=O)C(=O)[C@@]2(O)C([O-])=C3C(=O)c4c([O-])cccc4[C@@](C)(O)[C@H]3[C@H](O)[C@@H]12
+Label: No
+Input SMILES: C[NH+](C)[C@@H]1C([O-])=C(C(N)=O)C(=O)[C@@]2(O)C([O-])=C3C(=O)c4c([O-])cccc4[C@@](C)(O)[C@H]3C[C@@H]12
+Label: No
+Input SMILES: C[NH+](C)[C@@H]1C([O-])=C(C(N)=O)C(=O)[C@@]2(O)C([O-])=C3C(=O)c4c([O-])ccc(Cl)c4[C@@H](O)[C@H]3C[C@@H]12
+Label: No
+Input SMILES: Cc1cc(C)c(NC(=O)C[NH+](CC(=O)[O-])CC(=O)[O-])c(C)c1Br
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(OC[C@H]1O[C@@H](OC(=O)c2cc(O)c(O)c(OC(=O)c3cc(O)c(O)c(O)c3)c2)[C@H](OC(=O)c2cc(O)c(O)c(OC(=O)c3cc(O)c(O)c(O)c3)c2)[C@@H](OC(=O)c2cc(O)c(O)c(OC(=O)c3cc(O)c(O)c(O)c3)c2)[C@@H]1OC(=O)c1cc(O)c(O)c(OC(=O)c2cc(O)c(O)c(O)c2)c1)c1cc(O)c(O)c(OC(=O)c2cc(O)c(O)c(O)c2)c1
+Answer: 
+Assistant:
+2024-08-08 20:16:41,015 - INFO - [0.4981570541858673, 0.4981570541858673, ' No', 'No', 'No']
+2024-08-08 20:16:41,016 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCCC[NH+](CCCC)CCC(O)c1cc2c(Cl)cc(Cl)cc2c2cc(C(F)(F)F)ccc12
+Label: No
+Input SMILES: CCN(CC)C(=O)C1C[NH+]2CCc3cc(OC)c(OC)cc3C2CC1OC(C)=O
+Label: No
+Input SMILES: COc1ccc(C[C@@H]2c3cc(OC)c(OC)cc3CC[N@+]2(C)CCC(=O)OCCCCCOC(=O)CC[N@@+]2(C)CCc3cc(OC)c(OC)cc3[C@H]2Cc2ccc(OC)c(OC)c2)cc1OC
+Label: No
+Input SMILES: O=C1OC2(c3cc([131I])c([O-])c([131I])c3Oc3c2cc([131I])c([O-])c3[131I])c2c(Cl)c(Cl)c(Cl)c(Cl)c21
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: [NH3+][C@@H](CC(=O)N1CCn2c(nnc2C(F)(F)F)C1)Cc1cc(F)c(F)cc1F
+Answer: 
+Assistant:
+2024-08-08 20:16:56,926 - INFO - [0.37686043977737427, 0.6213378310203552, ' No', 'No', 'No']
+2024-08-08 20:16:56,927 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC(=O)Nc1c(I)c(C(=O)N[C@H]2C(O)O[C@H](CO)[C@@H](O)[C@@H]2O)c(I)c(N(C)C(C)=O)c1I
+Label: No
+Input SMILES: COCC(=O)Nc1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)N(C)CC(O)CO)c1I
+Label: No
+Input SMILES: O=C([O-])CN(CCN(CC(=O)[O-])C(COCc1ccccc1)C(=O)[O-])CC[NH+](CC(=O)[O-])CC(=O)[O-]
+Label: No
+Input SMILES: CNC(=O)c1c(C)c(C(=O)[O-])c(I)c(NC(C)=O)c1I
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(CCOCCOCCOCCOCCC(=O)Nc1c(I)cc(I)c(C(=O)[O-])c1I)Nc1c(I)cc(I)c(C(=O)[O-])c1I
+Answer: 
+Assistant:
+2024-08-08 20:17:11,439 - INFO - [0.4834490120410919, 0.5146288275718689, ' No', 'No', 'No']
+2024-08-08 20:17:11,439 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: [NH3+][C@@H](Cc1cc(I)c(Oc2cc(I)c([O-])c(I)c2)c(I)c1)C(=O)[O-]
+Label: No
+Input SMILES: O=C(NCC(O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(N(CCO)C(=O)CO)c1I
+Label: No
+Input SMILES: COc1ccc2cc([C@H](C)C(=O)OCCCCO[N+](=O)[O-])ccc2c1
+Label: Yes
+Input SMILES: CC[NH+](CC)CCNC(=O)c1ccc(N)cc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C(CCCCC(=O)Nc1c(I)cc(I)c(C(=O)[O-])c1I)Nc1c(I)cc(I)c(C(=O)[O-])c1I
+Answer: 
+Assistant:
+2024-08-08 20:17:23,814 - INFO - [0.621199369430542, 0.37677645683288574, ' Yes', 'Yes', 'No']
+2024-08-08 20:17:23,815 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCCCCCCCCC(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@H](CC(N)=O)C(=O)N[C@@H](CC(=O)[O-])C(=O)N[C@@H]1C(=O)NCC(=O)N[C@@H](CCC[NH3+])C(=O)N[C@@H](CC(=O)[O-])C(=O)N[C@H](C)C(=O)N[C@@H](CC(=O)[O-])C(=O)NCC(=O)N[C@H](CO)C(=O)N[C@@H]([C@H](C)CC(=O)[O-])C(=O)N[C@@H](CC(=O)c2ccccc2N)C(=O)O[C@@H]1C
+Label: No
+Input SMILES: CC(C)CC(NC(=O)C(COC(C)(C)C)NC(=O)C(Cc1ccc(O)cc1)NC(=O)C(CO)NC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)C(Cc1cnc[nH]1)NC(=O)C1CCC(=O)N1)C(=O)NC(CCC[NH+]=C(N)N)C(=O)N1CCCC1C(=O)NNC(N)=O
+Label: No
+Input SMILES: CC(=O)N[C@H](Cc1ccc2ccccc2c1)C(=O)N[C@H](Cc1ccc(Cl)cc1)C(=O)N[C@H](Cc1cccnc1)C(=O)N[C@@H](CO)C(=O)N(C)[C@@H](Cc1ccc(O)cc1)C(=O)N[C@H](CC(N)=O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCC[NH2+]C(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@H](C)C(N)=O
+Label: No
+Input SMILES: CC(=O)N[C@H](Cc1ccc2ccccc2c1)C(=O)N[C@H](Cc1ccc(Cl)cc1)C(=O)N[C@H](Cc1cccnc1)C(=O)N[C@@H](CO)C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)N[C@H](CCCNC(N)=O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N1CCC[C@H]1C(=O)N[C@H](C)C(N)=O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: NC(=O)[C@@H]1CCCN1C(=O)[C@H](Cc1cnc[nH]1)NC(=O)[C@@H]1CCC(=O)N1
+Answer: 
+Assistant:
+2024-08-08 20:17:54,593 - INFO - [0.16405053436756134, 0.8331173658370972, ' No', 'No', 'No']
+2024-08-08 20:17:54,593 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: NC(N)=[NH+]C(=O)Cc1c(Cl)cccc1Cl
+Label: No
+Input SMILES: CC[NH+](CC)CCOC(=O)c1ccc(N)cc1Cl
+Label: No
+Input SMILES: CC[NH+](CC)CCNC(=O)c1ccc(N)cc1
+Label: No
+Input SMILES: CC[NH+](CC)CCOC(=O)c1ccc(N)cc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: Nc1cc(N2CCCCC2)nc(N)[n+]1[O-]
+Answer: 
+Assistant:
+2024-08-08 20:18:04,927 - INFO - [0.36244526505470276, 0.6361112594604492, ' No', 'No', 'No']
+2024-08-08 20:18:04,927 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC[NH+](CC)CCOC(=O)C1(C2CCCCC2)CCCCC1
+Label: No
+Input SMILES: [NH3+]CC1(CC(=O)[O-])CCCCC1
+Label: No
+Input SMILES: COC1=CC(=O)OC(/C=C/C2=CCCC=C2)C1
+Label: Yes
+Input SMILES: CCCCOc1ccc(C(=O)CC[NH+]2CCCCC2)cc1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=c1[nH]cnc2c1ncn2[C@H]1CC[C@@H](CO)O1
+Answer: 
+Assistant:
+2024-08-08 20:18:15,231 - INFO - [0.45205631852149963, 0.5452839732170105, ' No', 'No', 'No']
+2024-08-08 20:18:15,231 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: NC(=O)N/C=C1/NC(=O)[C@H](CNC(=O)C[C@@H]([NH3+])CCC[NH3+])NC(=O)[C@H](CO)NC(=O)[C@@H]([NH3+])CNC(=O)[C@H]([C@H]2CC[NH+]=C(N)N2)NC1=O
+Label: No
+Input SMILES: NC(=[NH2+])NCCC[C@@H](NC(=O)[C@@H]1CCCN1C(=O)[C@@H]1CSSCCC(=O)N[C@@H](Cc2ccc(O)cc2)C(=O)N[C@@H](Cc2ccccc2)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(N)=O)C(=O)N1)C(=O)NCC(N)=O
+Label: No
+Input SMILES: NC(=O)CCC1NC(=O)C(Cc2ccccc2)NC(=O)C(Cc2ccc(O)cc2)NC(=O)C([NH3+])CSSCC(C(=O)N2CCCC2C(=O)NC(CCC[NH+]=C(N)N)C(=O)NCC(N)=O)NC(=O)C(CC(N)=O)NC1=O
+Label: No
+Input SMILES: NC(=O)CCC1NC(=O)C(Cc2ccccc2)NC(=O)C(Cc2ccc(O)cc2)NC(=O)C([NH3+])CSSCC(C(=O)N2CCCC2C(=O)NC(CCCC[NH3+])C(=O)NCC(N)=O)NC(=O)C(CC(N)=O)NC1=O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C([O-])CCCC[C@@H]1SC[C@@H]2NC(=O)N[C@@H]21
+Answer: 
+Assistant:
+2024-08-08 20:18:37,359 - INFO - [0.2803175449371338, 0.7158159613609314, ' No', 'No', 'No']
+2024-08-08 20:18:37,359 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: Clc1ccccc1C[NH+]1CCc2sccc2C1
+Label: No
+Input SMILES: C[NH+]1CCC(=C2c3ccccc3CCc3cccnc32)CC1
+Label: No
+Input SMILES: CCCCOc1ccc(OCCC[NH+]2CCOCC2)cc1
+Label: No
+Input SMILES: CCCCOCCOCCOCc1cc2c(cc1CCC)OCO2
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: [NH3+][C@@H]1CONC1=O
+Answer: 
+Assistant:
+2024-08-08 20:18:47,831 - INFO - [0.2935665249824524, 0.7042295336723328, ' No', 'No', 'No']
+2024-08-08 20:18:47,831 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: [NH3+][C@@H](Cc1cc(I)c(Oc2ccc(O)c(I)c2)c(I)c1)C(=O)[O-]
+Label: No
+Input SMILES: O=P([O-])([O-])C(Sc1ccc(Cl)cc1)P(=O)([O-])[O-]
+Label: No
+Input SMILES: [NH3+][C@@H](Cc1cc(I)c(Oc2cc(I)c([O-])c(I)c2)c(I)c1)C(=O)[O-]
+Label: No
+Input SMILES: CCOc1ccccc1OCC[NH2+][C@H](C)Cc1ccc(OC)c(S(N)(=O)=O)c1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=S(=O)([O-])O[C@@H]1[C@@H](OS(=O)(=O)[O-])[C@H](O[C@@H]2CO[C@@H](O)[C@H](OS(=O)(=O)[O-])[C@H]2OS(=O)(=O)[O-])OC[C@H]1O
+Answer: 
+Assistant:
+2024-08-08 20:19:02,039 - INFO - [0.3475075662136078, 0.6492295861244202, ' No', 'No', 'No']
+2024-08-08 20:19:02,039 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCCC[NH+]1C[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO
+Label: No
+Input SMILES: OCC[NH+]1C[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO
+Label: No
+Input SMILES: Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O
+Label: No
+Input SMILES: [NH3+]C[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O[C@H]3O[C@H](CO)[C@@H](O)[C@H]([NH3+])[C@H]3O)[C@H]([NH3+])C[C@@H]2[NH3+])[C@H]([NH3+])C[C@@H]1O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C([O-])[C@H]1/C(=C/CO)O[C@@H]2CC(=O)N21
+Answer: 
+Assistant:
+2024-08-08 20:19:16,298 - INFO - [0.28048232197761536, 0.7162367105484009, ' No', 'No', 'No']
+2024-08-08 20:19:16,299 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](C(=O)[O-])c3ccsc3)C(=O)N2[C@H]1C(=O)[O-]
+Label: No
+Input SMILES: CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](NC(=O)N3CCNC3=O)c3ccccc3)C(=O)N2[C@H]1C(=O)[O-]
+Label: No
+Input SMILES: CC1(C)S[C@@H]2[C@H](NC(=O)C(C(=O)[O-])c3ccccc3)C(=O)N2[C@H]1C(=O)[O-]
+Label: No
+Input SMILES: CC1(C)S[C@@H]2[C@H](NC(=O)[C@H]([NH3+])c3ccc(O)cc3)C(=O)N2[C@H]1C(=O)[O-]
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: N#C[C@@H]1C[C@@H]2C[C@@H]2N1C(=O)[C@@H]([NH3+])C12CC3CC(CC(O)(C3)C1)C2
+Answer: 
+Assistant:
+2024-08-08 20:19:32,645 - INFO - [0.23320123553276062, 0.7646374702453613, ' No', 'No', 'No']
+2024-08-08 20:19:32,646 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: [NH3+]Cc1ccccc1CC(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(CSc3nnnn3CC(=O)[O-])CS[C@H]12
+Label: No
+Input SMILES: CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(COC(C)=O)CS[C@H]12)c1csc(N)n1
+Label: No
+Input SMILES: CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=CCS[C@H]12)c1csc(N)n1
+Label: No
+Input SMILES: CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)OC(C)OC(C)=O)=C(COC(N)=O)CS[C@H]12)c1ccco1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: C/C=C1\NC(=O)[C@H]2CSSCC/C=C/[C@H](CC(=O)N[C@H](C(C)C)C(=O)N2)OC(=O)[C@H](C(C)C)NC1=O
+Answer: 
+Assistant:
+2024-08-08 20:19:48,668 - INFO - [0.2014503926038742, 0.7967517375946045, ' No', 'No', 'No']
+2024-08-08 20:19:48,668 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC(=O)CC(c1ccccc1)c1c([O-])c2ccccc2oc1=O
+Label: No
+Input SMILES: COc1ccc(CC[NH+](C)CCCC(C#N)(c2ccc(OC)c(OC)c2)C(C)C)cc1OC
+Label: No
+Input SMILES: [NH3+]CCCC([NH3+])(C(=O)[O-])C(F)F
+Label: No
+Input SMILES: O=[99Tc](=O)(=O)[O-]
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: C/C=C(C(=C/C)/c1ccc(O)cc1)\c1ccc(O)cc1
+Answer: 
+Assistant:
+2024-08-08 20:20:00,645 - INFO - [0.07151131331920624, 0.9273727536201477, ' No', 'No', 'No']
+2024-08-08 20:20:00,645 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CN1C(=O)C(O)N=C(c2ccccc2)c2cc(Cl)ccc21
+Label: No
+Input SMILES: CC[NH+](CC)CCNC(=O)c1cc(Cl)c(N)cc1OC
+Label: No
+Input SMILES: CCC1(c2ccccc2)SCC(=O)NC1=O
+Label: No
+Input SMILES: CN(CCOc1ccc(CC2SC(=O)[N-]C2=O)cc1)c1ccccn1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: C/[NH+]=C1/CN([O-])C(c2ccccc2)=c2cc(Cl)ccc2=N1
+Answer: 
+Assistant:
+2024-08-08 20:20:12,968 - INFO - [0.34817641973495483, 0.6504791975021362, ' No', 'No', 'No']
+2024-08-08 20:20:12,968 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H]([NH+](C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O
+Label: No
+Input SMILES: CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H]([NH+](C)C)[C@H]2O)[C@](C)(OC)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O
+Label: No
+Input SMILES: CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)C(C)[C@@H](O[C@@H]2O[C@H](C)C[C@H]([NH+](C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)C[NH+](C)[C@H](C)[C@@H](O)[C@]1(C)O
+Label: No
+Input SMILES: CCCCCCCC(=O)CC[C@@H]1[C@@H](C/C=C\CCCC(=O)OC(C)C)[C@@H](O)C[C@H]1O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O
+Answer: 
+Assistant:
+2024-08-08 20:20:35,065 - INFO - [0.13239698112010956, 0.8633367419242859, ' No', 'No', 'No']
+2024-08-08 20:20:35,066 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O
+Label: No
+Input SMILES: Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@@H]2O)c(=O)n1
+Label: Yes
+Input SMILES: Nc1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)n1
+Label: No
+Input SMILES: CCCCCCCCCCCCCCCC(=O)O[C@@H]1[C@@H](O)[C@@H](O)[C@@H](C(NC(=O)[C@@H]2C[C@@H](CCC)C[NH+]2C)C(C)Cl)O[C@@H]1SC
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: OC[C@H]1O[C@@H](O[C@@H]2[C@@H](CO)O[C@](O)(CO)[C@H]2O)[C@H](O)[C@@H](O)[C@H]1O
+Answer: 
+Assistant:
+2024-08-08 20:20:50,987 - INFO - [0.12573042511940002, 0.8727421164512634, ' No', 'No', 'No']
+2024-08-08 20:20:50,987 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: O=[Al]O[Al]=O
+Label: No
+Input SMILES: [NH3+]CCC[NH2+]CCSP(=O)([O-])[O-]
+Label: No
+Input SMILES: O=[99Tc](=O)(=O)[O-]
+Label: No
+Input SMILES: CC(=O)CC(c1ccccc1)c1c([O-])c2ccccc2oc1=O
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: O=C1O[C@H]([C@@H](O)CO)C([O-])=C1O
+Answer: 
+Assistant:
+2024-08-08 20:21:01,515 - INFO - [0.11269623041152954, 0.8864245414733887, ' No', 'No', 'No']
+2024-08-08 20:21:01,516 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: [NH3+]Cc1ccccc1CC(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(CSc3nnnn3CC(=O)[O-])CS[C@H]12
+Label: No
+Input SMILES: CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(COC(C)=O)CS[C@H]12)c1csc(N)n1
+Label: No
+Input SMILES: CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=CCS[C@H]12)c1csc(N)n1
+Label: No
+Input SMILES: CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)OC(C)OC(C)=O)=C(COC(N)=O)CS[C@H]12)c1ccco1
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: C#CCC(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)N[C@@H](CCC(=O)[O-])C(=O)[O-])cc1
+Answer: 
+Assistant:
+2024-08-08 20:21:17,450 - INFO - [0.22232645750045776, 0.7759955525398254, ' No', 'No', 'No']
+2024-08-08 20:21:17,451 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CCCCOCCOCCOCc1cc2c(cc1CCC)OCO2
+Label: No
+Input SMILES: [NH3+]C12CC3CC(CC(C3)C1)C2
+Label: No
+Input SMILES: CCCCOc1ccc(OCCC[NH+]2CCOCC2)cc1
+Label: No
+Input SMILES: C[NH+]1CC[C@]23CCCC[C@H]2[C@H]1Cc1ccc(O)cc13
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: C#CC[NH2+][C@@H]1CCc2ccccc21
+Answer: 
+Assistant:
+2024-08-08 20:21:27,688 - INFO - [0.18218231201171875, 0.8164844512939453, ' No', 'No', 'No']
+2024-08-08 20:21:27,688 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: CS(=O)(=O)O.Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1
+Label: Yes
+Input SMILES: CN(C)N/N=C1/N=CN=C1C(N)=O
+Label: Yes
+Input SMILES: CC(=O)O[C@H]1Cc2ccccc2N(C(N)=O)c2ccccc21
+Label: Yes
+Input SMILES: O=C([O-])C1=C(CSc2nnnn2CS(=O)(=O)[O-])CS[C@@H]2[C@H](NC(=O)[C@H](O)c3ccccc3)C(=O)N12
+Label: No
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: [H]/[NH+]=C(\N)c1ccc(OCCCCCOc2ccc(/C(N)=[NH+]/[H])cc2)cc1
+Answer: 
+Assistant:
+2024-08-08 20:21:41,791 - INFO - [0.4975709319114685, 0.4975709319114685, ' No', 'No', 'No']
+2024-08-08 20:21:41,792 - INFO - Human: You are an expert chemist, your task is to predict the property of molecule using your experienced chemical property prediction knowledge.
+Please strictly follow the format, no other information can be provided. Given the SMlLES string of a molecule, the task focuses on predicting molecular properties, specifically wether a molecule is clinically trail toxic (Yes) or No clinically trail toxic (No) based on the SMILES string representation of each molecule. You will be provided with some molecule SMILES as examples, accompanied by a binary label indicating whether it is clinically trail toxic (Yes) or No clinically trail toxic (No) in the beginning.
+Input SMILES: [NH3+][C@@H](Cc1cc(I)c(Oc2ccc(O)c(I)c2)c(I)c1)C(=O)[O-]
+Label: No
+Input SMILES: [NH3+][C@@H](Cc1cc(I)c(Oc2cc(I)c([O-])c(I)c2)c(I)c1)C(=O)[O-]
+Label: No
+Input SMILES: CCCC[NH+](CCCC)CC(O)c1cc(Cl)cc2c1-c1ccc(Cl)cc1/C2=C/c1ccc(Cl)cc1
+Label: No
+Input SMILES: CC(=O)O[C@H]1Cc2ccccc2N(C(N)=O)c2ccccc21
+Label: Yes
+Then predict whether the following molecule it is clinically trail toxic or not. Please answer with only Yes or No.
+Input SMILES: [H]/[NH+]=C(\N)C1=CC(=O)/C(=C\C=c2ccc(=C(N)[NH3+])cc2)C=C1
+Answer: 
+Assistant:
+2024-08-08 20:21:54,336 - INFO - [0.5296837091445923, 0.4674442410469055, ' Yes', 'Yes', 'No']
+2024-08-08 20:21:54,337 - INFO - 
+==================================================
+
+2024-08-08 20:21:54,337 - INFO - ['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes']
+2024-08-08 20:21:54,337 - INFO - ['No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'Yes', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+2024-08-08 20:21:54,340 - INFO - [0.563768115942029]
+2024-08-08 20:21:54,341 - INFO - [0.8648648648648649]
